@@ -1,0 +1,32 @@
+{
+  "id": "E9",
+  "name": "NHS England — AI-enabled ambient scribing guidance (April 2025)",
+  "category": "stats",
+  "description": "Formal guidance on AI scribing in health and care settings",
+
+  "statistic": "NHS England published formal guidance on the use of AI-enabled ambient scribing products in health and care settings on 27 April 2025 (updated to Version 2 on 16 January 2026). This is the first in a planned series of national guidance documents supporting AI-enabled clinical documentation. The guidance covers product functionality, transcription outputs, data and system considerations, and applies explicitly to health AND care settings including primary care, community services, care homes, and hospitals. Key requirements include: assign a clinical safety officer, complete DCB0160 clinical safety documentation, conduct Data Protection Impact Assessments, ensure MHRA Class 1 registration minimum for products, plan integration with Electronic Patient Records via FHIR/HL7/SNOMED CT standards, and implement monitoring frameworks. Staff must review and approve all AI-generated outputs before clinical use. NHS England also established an AVT Supplier Registry for self-certified suppliers meeting national standards.",
+
+  "source": "NHS England",
+
+  "source_url": "https://www.england.nhs.uk/long-read/guidance-on-the-use-of-ai-enabled-ambient-scribing-products-in-health-and-care-settings/",
+
+  "date": "27 April 2025 (first published); 16 January 2026 (updated to Version 2)",
+
+  "credibility": "Government — official NHS England guidance. First formal national guidance on AI-enabled documentation in health and care settings. Part of a planned series of documents from NHS England's digital transformation programme.",
+
+  "applicability": "Directly care sector — the guidance explicitly covers 'health and care settings' including care homes and community services, not just hospitals. This is one of the first pieces of formal NHS guidance that includes social care providers in the scope of AI adoption requirements.",
+
+  "citable": "Yes — official NHS England publication, freely available online. Attribute to 'NHS England, Guidance on the use of AI-enabled ambient scribing products in health and care settings, April 2025 (updated January 2026).' Highly authoritative for care sector audience.",
+
+  "website_placement": "Service pages and 'How We Work' section — demonstrates that AI-enabled documentation (a core Clarica service area) now has formal NHS backing and a clear compliance framework. Works well alongside ambient scribing workflow content. Also suitable for a compliance/governance page showing that Clarica follows NHS England's recommended standards. The AVT Supplier Registry reference adds procurement credibility.",
+
+  "emotional_vs_rational": "Primarily rational — provides a compliance framework and procurement guidance that appeals to operations directors and compliance managers. Secondary emotional reassurance that AI documentation tools are safe and approved by the NHS, reducing fear of the unknown for care managers and frontline staff who may be anxious about AI replacing human judgement.",
+
+  "clarica_differentiator": "Strong differentiator. The inclusion of 'care settings' in the scope means Clarica can position its ambient scribing and documentation services as aligned with formal NHS guidance — not experimental or untested. The detailed compliance framework (DCB0160, DPIA, MHRA registration, clinical safety officer) creates a barrier to entry that favours consultative agencies like Clarica over DIY approaches. Care providers need expert guidance to navigate these requirements, which is exactly what Clarica offers.",
+
+  "refresh_frequency": "Already updated once (April 2025 to January 2026 Version 2). NHS England has announced a planned series of follow-up documents over the next six months covering information governance, evaluation templates, and monitoring tools. Expect quarterly to semi-annual updates as the guidance matures.",
+
+  "comparison_pair": "Before: No formal national guidance existed for AI scribing in care settings — providers adopted tools ad hoc with no standardised safety or governance framework. After: A comprehensive NHS England compliance framework with clinical safety, data protection, interoperability, and monitoring requirements, plus a supplier registry. This shifts AI scribing from 'experimental' to 'formally supported.'",
+
+  "uncertain": []
+}

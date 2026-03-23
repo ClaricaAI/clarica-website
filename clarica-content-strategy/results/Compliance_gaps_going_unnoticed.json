@@ -1,0 +1,37 @@
+{
+  "id": "A3",
+  "name": "Compliance gaps going unnoticed",
+  "category": "pain_points",
+  "description": "Missed reviews, expired assessments, audit failures",
+
+  "severity_ranking": "Very High — compliance failures are the most consequential pain point because they directly trigger CQC enforcement action, reputational damage, and risk to residents. CQC inspections fell from ~16,000 in 2019/20 to ~6,700 in 2023/24, meaning providers are less likely to catch gaps through external inspection and must rely on internal systems. 19% of locations have never been rated by CQC (up from 13% in 2019). Uninspected homecare locations surged 64% between June 2024 and August 2025. Many care services struggle most in the 'Well-Led' category because audits are time-consuming and difficult to maintain.",
+
+  "audience_affected": "Registered managers (carry personal regulatory liability — can be personally fined or disqualified), compliance managers (responsible for audit schedules and tracking), operations directors (multi-site oversight and pattern detection), CEOs/owners (ultimate accountability and financial exposure). Frontline staff contribute to gaps when care plan reviews and risk assessments lapse due to workload pressure.",
+
+  "financial_impact": "CQC fines range from £3,750 for minor notification failures to £34,833+ for operating without registration. Total CQC fines exceeded £5 million over a two-year period, with prosecutions up 700%. Beyond fines, a 'Requires Improvement' or 'Inadequate' rating depresses occupancy — care homes report 10-20% occupancy drops following poor ratings, each empty bed costing £800-£1,200/week in lost revenue. Enforcement action can lead to suspension or cancellation of registration, closing the business entirely. Insurance premiums increase following compliance failures, and legal costs for defending enforcement action are substantial.",
+
+  "emotional_trigger": "Registered managers describe living in constant anxiety about 'what they might have missed.' The fear of a CQC inspection revealing an expired risk assessment or missed medication review keeps managers awake at night. Common language includes: 'I can't keep track of everything,' 'something always slips through the cracks,' and 'I didn't even know that review was overdue until the inspector found it.' The personal liability aspect — managers can be individually prosecuted — adds acute stress beyond normal job pressure.",
+
+  "ai_solvability": "Highly solvable — AI excels at monitoring, alerting, and pattern detection. Automated systems can track every care plan review date, risk assessment expiry, training certificate renewal, policy update deadline, and medication review schedule, sending proactive alerts before anything lapses. AI can scan care records for anomalies (e.g. no bowel chart entry for 3 days, weight loss trend not triggering a nutrition review). Predictive compliance — flagging areas likely to fail before they do — is a strong AI use case. Requires integration with existing care record systems but no process redesign.",
+
+  "source_evidence": [
+    "CQC inspections fell from ~16,000 (2019/20) to ~6,700 (2023/24) — GOV.UK Analysis of CQC Data 2014-2024",
+    "19% of locations never rated by CQC, up from 13% in 2019 (GOV.UK)",
+    "Uninspected homecare locations surged 64%, from 2,879 to 4,727 (June 2024-August 2025) — CACI/Homecare Association",
+    "70.3% of community social care providers lack current ratings or have assessments 4-8+ years outdated (CACI)",
+    "CQC prosecutions up 700%, fines topped £5m in two years (Caring Times)",
+    "Re-inspection wait for 'Requires Improvement' extended to 360 days, 153% increase since 2015 (CACI)",
+    "54% of pending CQC registration applications exceeded 10-week target (CQC data 2023/24)",
+    "Professor Sir Mike Richards: CQC framework 'far too complex' (GOV.UK Review of CQC)"
+  ],
+
+  "government_policy_driver": "CQC Single Assessment Framework (new quality statements replacing KLOEs); Digitising Social Care programme (digital records enabling automated compliance tracking); 10 Year Health Plan (integrated data systems for cross-organisational oversight).",
+
+  "competitor_exploitation": "The Access Group heavily targets this pain point with their CQC Compliance software, marketing 'the most common CQC mistakes and how to avoid them.' GoAudits offers care home audit checklist templates. MEG markets care home quality and compliance software. Person Centred Software includes compliance dashboards in their Connected Care Platform. Checkit markets sensor-based compliance monitoring (Hallmark Care Homes cut audit time by 40%). However, most focus on checklists and dashboards rather than predictive AI that anticipates gaps before they occur.",
+
+  "content_format_fit": "Interactive compliance risk assessment tool ('How many gaps might be hiding in your care home right now?'), stat block showing CQC enforcement data, checklist download of 'Top 10 compliance gaps AI can catch before CQC does.'",
+
+  "objection_link": "'We already do regular audits' — but manual audits are point-in-time snapshots. AI provides continuous, real-time monitoring that catches issues between audits. The average re-inspection wait is 360 days — a lot can go wrong in that time without automated oversight.",
+
+  "uncertain": ["financial_impact"]
+}

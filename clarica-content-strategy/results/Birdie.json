@@ -1,0 +1,30 @@
+{
+  "id": "B9",
+  "name": "Birdie",
+  "category": "competitors",
+  "description": "Home care tech, B Corp + ISO 27001, community of 2,000+, 'Explore product tours' CTA",
+
+  "headline_messaging": "Hero headline: \"Technology that helps homecare work smarter.\" Subheadline: \"Save time, reduce mistakes, and keep everyone on the same page — all in one system.\" Secondary messaging: \"Care more, worry less\" and \"Never feel alone again.\" Value proposition centres on smart technology built specifically for homecare agencies that saves time and reduces mistakes.",
+
+  "pain_points_targeted": "Admin burden ('drowning in admin,' 'scheduling eating up your day'), compliance and CQC inspection readiness, data visibility and insights gaps, staff retention and recruitment challenges, multiple disconnected systems, billing and payroll accuracy, feeling isolated as a care business owner.",
+
+  "cta_format": "Primary CTA: \"Book a demo\" — appears 4+ times with arrow icon throughout the page. Secondary CTAs: \"Explore product tours\" and \"See what's coming next.\" Format uses buttons with directional arrow icons. Product-specific demo links available for Care Management, Rostering, Finance, Quality & Compliance, Workforce Experience. Multi-CTA strategy addressing different buyer journey stages.",
+
+  "social_proof_approach": "Prominent stats: 1,000+ homecare businesses, 99.9% uptime, +20% more care hours delivered, +7% increase in care recipients, +40% average profit growth increase. Client logos: Alina Homecare, Christies Care, Ethica Care, Azure Care, Helping at Home. Named testimonials from Operations Directors, Commercial Directors, and Managing Directors. Rating: 'Rated Excellent based on 252 reviews.' Flock community of 2,000+ care professionals. B Corp certification. Birdie Academy for free training.",
+
+  "pricing_visibility": "Not displayed on homepage. Separate /pricing page with slider-based calculator for custom quotes. Users must interact with pricing tool or contact sales to get actual numbers.",
+
+  "tone": "Professional yet empathetic. Uses phrases like 'Care more, worry less' and 'Never feel alone again.' Warm toward care sector challenges while remaining business-focused. Aspirational without being corporate. Accessible and supportive language targeting time-poor care agency owners and managers.",
+
+  "ai_positioning": "AI is positioned ethically and transparently. Featured article: 'AI in plain sight: why transparency matters in care.' Emphasises human rights implications and responsible AI development. AI is not the lead selling point — it is positioned as an emerging, responsible capability rather than a core feature. Focus on ethical deployment over flashy AI claims.",
+
+  "acquisition_strategy": "No acquisition activity. Birdie is an independent company founded in 2017 by Max, Raj, Abeed, and Gwen. Growing organically. Named as one of two top Home Health Tech providers in the 150 Most Innovative Digital Health startups.",
+
+  "market_segment_focus": "Exclusively homecare/domiciliary care. Does not serve residential care homes. Target personas: homecare agency owners, care coordinators, office staff/managers, carers (via mobile app), families (via family app). UK-focused.",
+
+  "trust_signal_type": "ISO 27001 certified (audited by Prescient Security and Vanta), Cyber Essentials Plus certified, B Corp certification, UK-based data hosting (AWS eu-west-2), 99.9% uptime guarantee, support team with 10-minute response time 7 days/week, quarterly one-to-one success calls, Birdie Academy free training programme.",
+
+  "content_marketing_approach": "Significant investment in content marketing: active blog with feature articles on AI ethics and care sector trends, Flock community (2,000+ members — 'fastest-growing community for social care'), video content and webinars, Birdie Academy (free training), books and courses, industry event participation. Product tours as interactive content for self-serve exploration. Strong educational content strategy.",
+
+  "uncertain": []
+}

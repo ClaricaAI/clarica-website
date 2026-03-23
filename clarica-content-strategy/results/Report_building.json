@@ -1,0 +1,35 @@
+{
+  "id": "A2",
+  "name": "Report building",
+  "category": "pain_points",
+  "description": "Time spent compiling reports for management, CQC, local authority",
+
+  "severity_ranking": "High — report building is cited as a major sub-component of the broader admin burden. 30% of care managers identified documentation and record-keeping as their top time-consuming task. Registered managers must produce reports for CQC inspections, local authority contract monitoring, safeguarding boards, internal governance/board meetings, and commissioner reviews. The CQC's new Single Assessment Framework has increased documentation demands, and 70.3% of community social care providers either lack current ratings or have assessments 4-8+ years outdated, creating pressure for providers to self-evidence quality through internal reporting.",
+
+  "audience_affected": "Registered managers (primary report builders for CQC and local authority), compliance managers (audit reports, quality assurance), operations directors (multi-site aggregation and board reporting), CEOs/owners (investor and board-level reporting). Frontline staff are indirectly affected as managers pull them away from care duties to gather data for reports.",
+
+  "financial_impact": "Manager time spent on report compilation is estimated at 10-20+ hours per week across multiple reporting obligations. With registered manager salaries averaging £35,000-£45,000, the reporting burden equates to roughly £10,000-£20,000 per manager per year in lost productive time. For multi-site operators, this multiplies across every home. Agency cover costs to backfill managers during intensive reporting periods add further expense. Failure to produce adequate reports can result in CQC enforcement action — re-inspection wait times for 'Requires Improvement' ratings have extended to 360 days (153% increase since 2015), during which time a poor rating depresses occupancy rates and revenue.",
+
+  "emotional_trigger": "Care managers describe report building as repetitive, duplicative, and soul-destroying. Common frustrations include entering the same information in three different places for different audiences. Professor Sir Mike Richards noted the CQC framework 'is far too complex and does not allow one-size-fits-all approaches' to evidence gathering. Managers feel trapped between wanting to provide great care and being chained to a desk producing documents that feel disconnected from actual care quality. 45% of managers say admin time impacts service users' health or care directly.",
+
+  "ai_solvability": "Highly automatable — AI can aggregate data from digital care records, incident logs, medication records, and staffing systems to auto-generate CQC-ready reports, local authority returns, and board summaries. Natural language generation can produce narrative summaries from structured data. AI can pre-populate report templates, highlight trends and exceptions, and flag areas requiring manager attention. Requires human review and sign-off but eliminates 70-80% of the manual compilation work. Some care software (e.g. Birdie, PCS) already offers basic reporting, but current tools lack intelligent narrative generation.",
+
+  "source_evidence": [
+    "Survey of ~200 NHS and social care managers: documentation and record-keeping is 2nd most time-consuming task at 30% (Nursing in Practice)",
+    "CQC: 70.3% of community social care providers lack current ratings or have outdated assessments (CACI analysis of CQC data)",
+    "CQC re-inspection wait for 'Requires Improvement' extended to 360 days, 153% increase since 2015 (CACI)",
+    "Professor Sir Mike Richards: CQC framework 'far too complex' (GOV.UK Review of CQC Operational Effectiveness)",
+    "Uninspected homecare locations surged 64% between June 2024 and August 2025 (CACI / Homecare Association)",
+    "45% of managers say admin time impacts service users' health or care (Nursing in Practice survey)"
+  ],
+
+  "government_policy_driver": "Digitising Social Care programme (digital care records as data foundation for automated reporting); 10 Year Health Plan (single patient record enabling cross-system data sharing); CQC Single Assessment Framework (new evidence categories requiring structured reporting).",
+
+  "competitor_exploitation": "Person Centred Software markets built-in reporting dashboards across their Connected Care Platform. Birdie offers care auditing tools that auto-generate compliance reports. The Access Group sells care compliance software with audit trail features. Log my Care provides basic reporting for smaller providers. However, none currently offer AI-generated narrative reports — they provide data dashboards rather than finished documents ready for submission.",
+
+  "content_format_fit": "Before/after case study (manual report vs AI-generated report side-by-side), data visualisation showing time saved, downloadable template showing what an AI-generated CQC evidence report looks like.",
+
+  "objection_link": "'CQC won't accept AI-generated reports' — AI drafts the report from real data; the manager reviews, edits, and signs off. The output is the manager's report, assisted by AI, not an AI report. CQC assesses evidence quality, not how it was compiled.",
+
+  "uncertain": ["financial_impact"]
+}

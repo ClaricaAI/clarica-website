@@ -1,0 +1,30 @@
+{
+  "id": "B14",
+  "name": "The Access Group",
+  "category": "competitors",
+  "description": "Large UK software provider, care home management suite, significant marketing budget",
+
+  "headline_messaging": "[uncertain] Exact hero headline could not be extracted due to JavaScript-heavy page rendering. Based on search results and marketing pages, the positioning is: 'Join over 14,000 registered care locations across the UK by implementing the most widely used care management software in UK care services.' Core value proposition: Access Care Management solutions are the most widely used for care management in the UK, with over 30 years of sector experience, managing over 160 million hours of home care and 200 million hours of residential care per year — 25% of all social care hours in the UK.",
+
+  "pain_points_targeted": "Administrative burden for care staff and managers, CQC compliance and audit readiness, medication management errors, manual care planning processes, occupancy management challenges, staff rostering and scheduling inefficiency, fragmented systems across care operations, paper-based documentation, policy and procedure management complexity.",
+
+  "cta_format": "[uncertain] Specific CTA text could not be fully extracted. Based on page structure and secondary pages, the site uses 'Book a Demo' and 'Request a Callback' as primary CTAs. Extensive buyer's guide content serves as a softer CTA funnel. Multiple product-specific landing pages with individual demo request forms. Marketing budget supports paid search and content-driven lead generation.",
+
+  "social_proof_approach": "Scale-based social proof: 14,000+ registered care locations, 30+ years of sector experience, 160 million hours of home care managed, 200 million hours of residential care managed, 25% of UK social care hours managed by their solutions. NHS England DSCR Assured Supplier. PRSB Standards Partnership Scheme member. Cited positively by CQC in many Outstanding ratings. No individual named testimonials visible on main pages — relies on institutional credibility and market dominance stats.",
+
+  "pricing_visibility": "Custom subscription pricing based on beds/users. Typical range £2–£5 per resident/month (based on buyer's guide content). Pricing page discusses care home software pricing in general terms rather than displaying specific tiers. Quotes required for actual pricing — contact sales model. Access allows choosing plans by service size and number of locations.",
+
+  "tone": "Corporate, authoritative, and comprehensive. Positioned as the established market leader. More formal than startup competitors. Uses phrases like 'the most widely used' and 'over 30 years of experience.' Educational in its content marketing but from a position of authority. Less warm/personal than smaller competitors.",
+
+  "ai_positioning": "AI is positioned as a transformative capability being integrated into the existing platform. ISO 42001 accredited — demonstrating leadership in responsible and ethical AI governance. Access Evo system designed to mitigate AI issues such as bias and privacy concerns. AI is used in care planning to 'simplify and improve efficiency.' Positioned as responsible AI adoption rather than AI-first. AI features include care plan generation, documentation automation, and policy management.",
+
+  "acquisition_strategy": "The Access Group is a significant acquirer in the UK software market. Active acquisition-led growth strategy across multiple verticals including health and social care. Part of a broader portfolio of business software brands. Backed by private equity. Acquires smaller care tech companies to expand its suite. One of the largest UK software companies overall.",
+
+  "market_segment_focus": "Multi-segment: residential care homes, nursing homes, domiciliary/home care, supported living, complex care, and multi-service settings. Also serves healthcare beyond social care. Targets from smallest to largest providers. Geographic focus is UK and Ireland, with some international presence.",
+
+  "trust_signal_type": "NHS England DSCR Assured Supplier, PRSB Standards Partnership Scheme member, ISO 42001 (AI governance), CQC Outstanding rating citations, 14,000+ care locations, 30+ years of experience, 25% of UK social care hours, GDPR/CCPA/PDPA compliance infrastructure (OneTrust integration), established corporate brand with significant market presence.",
+
+  "content_marketing_approach": "Significant investment in content marketing — the largest content operation in the competitor set. Extensive blog at /blog covering care software buyer's guides, care planning guides, pricing guides, CQC compliance guides, and technology trends. Multiple authoritative buyer's guides ('Care Software: The Buyer's Guide for UK Care Providers,' 'Residential Care Software: The Complete Buyer's Guide'). eBooks and downloadable guides. Webinar programme. SEO-driven content strategy targeting care home software search terms. Substantial marketing budget supporting both organic and paid channels.",
+
+  "uncertain": ["headline_messaging", "cta_format"]
+}

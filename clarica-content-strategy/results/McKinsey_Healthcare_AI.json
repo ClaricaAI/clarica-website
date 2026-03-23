@@ -1,0 +1,32 @@
+{
+  "id": "E11",
+  "name": "McKinsey — Healthcare efficiency through AI and data (2025-26)",
+  "category": "stats",
+  "description": "AI and data redefining healthcare efficiency",
+
+  "statistic": "McKinsey's 'What to expect in US healthcare in 2026 and beyond' (January 2026) finds that Health Services Technology (HST) is the fastest-growing US healthcare segment, with EBITDA projected to exceed $110 billion by 2029 and annual EBITDA growth of 9% (2024-2029). Industry-wide EBITDA as a percentage of national health expenditures fell from 11.2% (2019) to 8.9% (2024), but HST is the outlier driving growth. The top 25 HST players now represent 29% of total HST revenue pools, up from 20% in 2019, indicating market consolidation. Venture capital investment in healthcare technology reached $11.9 billion by Q3 2025. Gen AI adoption is accelerating, with 85% of healthcare leaders exploring or having adopted generative AI capabilities and 64% of implementing organisations reporting anticipated or realised positive ROI. Post-2027, payer recovery depends on AI-enabled backend transformations including automated claims adjudication, predictive risk modelling, and AI-assisted clinical scribing.",
+
+  "source": "McKinsey & Company",
+
+  "source_url": "https://www.mckinsey.com/industries/healthcare/our-insights/what-to-expect-in-us-healthcare",
+
+  "date": "January 12, 2026",
+
+  "credibility": "Consultancy — McKinsey is a top-tier global management consultancy. This is their annual flagship healthcare outlook report, widely cited by industry leaders, investors, and policymakers. Based on proprietary research and executive surveys.",
+
+  "applicability": "Healthcare adjacent — US-focused analysis, but the macro trends (AI as efficiency driver, technology as the fastest-growing segment, margin compression forcing digital adoption) are directly transferable to the UK care sector context. UK social care faces even more acute financial pressures than US healthcare, making the efficiency case for AI equally or more compelling.",
+
+  "citable": "Yes — published on McKinsey.com with clear methodology. Attribute to 'McKinsey & Company, What to expect in US healthcare in 2026 and beyond, January 2026.' Caveat for UK audience: US-focused data, but macro trends are globally relevant. The McKinsey brand carries significant weight with CEO/owner audiences.",
+
+  "website_placement": "Business case or ROI section — the $110bn HST projection and 9% annual growth rate position AI investment as being on the right side of a major industry shift. The EBITDA decline (11.2% to 8.9%) illustrates margin pressure that AI helps address. Works well in a 'Market Context' or 'Why Now' section. The 85% adoption figure reinforces urgency. Also suitable for investor or partnership-facing content.",
+
+  "emotional_vs_rational": "Primarily rational — hard financial data (EBITDA projections, growth rates, VC investment figures) appeals to analytically-minded CEOs and operations directors. The margin compression narrative (11.2% to 8.9%) creates rational urgency. Secondary emotional trigger: the 'fastest-growing segment' framing positions AI adopters as winners in a declining market.",
+
+  "clarica_differentiator": "Moderate differentiator. McKinsey's finding that HST is the fastest-growing segment validates the broader market opportunity that Clarica operates in. The emphasis on AI-enabled workflow automation (claims, scribing, risk modelling) maps directly to Clarica's service areas in care documentation and compliance. The consolidation trend (top 25 players growing market share) supports Clarica's positioning as a specialist partner that helps smaller care providers access AI capabilities typically available only to large organisations.",
+
+  "refresh_frequency": "Annual — McKinsey publishes this healthcare outlook every January. The 2025 edition was published January 2025; the 2026 edition January 2026. Next update expected January 2027. McKinsey also publishes interim reports on specific healthcare AI topics throughout the year.",
+
+  "comparison_pair": "Before (2019): Industry EBITDA at 11.2% of national health expenditures; HST players held 20% of revenue pools. After (2024-2029 projection): EBITDA compressed to 8.9% but HST EBITDA growing at 9% annually to exceed $110bn by 2029; top HST players now hold 29% of revenue pools. Also: $11.9bn VC investment in healthcare technology by Q3 2025 signals massive capital flowing into the sector.",
+
+  "uncertain": []
+}

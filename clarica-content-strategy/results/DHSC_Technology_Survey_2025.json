@@ -1,0 +1,32 @@
+{
+  "id": "E3",
+  "name": "DHSC — Adult Social Care Provider Technology Survey 2025",
+  "category": "stats",
+  "description": "73% cite set-up costs as barrier, 70% licensing costs, 52% staff training",
+
+  "statistic": "The 2025 Adult Social Care Provider Technology Survey found that the most frequently cited barriers to technology adoption were: set-up costs of technology (73%), ongoing licensing fees (70%), and staff training costs combined with high staff turnover (52%). Additional barriers included: cost of cyber and data security (41%), availability of good internet connectivity (40%), lack of digital skills among staff (39%), lack of digital skills among care recipients (39%), service user reluctance to technology (39%), staff reluctance to use the technology (34%), and concerns about replacing face-to-face care (30%). On the support needed to overcome these barriers: 82% said funding for ongoing costs, 67% said funding for upfront costs, 58% said workforce upskilling, 44% said assurance that the technology is safe, 41% said information to better understand available technologies, 41% said infrastructure improvements, and 40% said inspection guidance/regulation. Additional key finding: 27% of adult social care providers reported not using any technology for direct care delivery. Among those using technology: 73% use digital social care records (DSCRs), 63% use digital rostering, and 53% use video conferencing for business management.",
+
+  "source": "Department of Health and Social Care (DHSC)",
+
+  "source_url": "https://www.gov.uk/government/statistics/technology-use-in-adult-social-care-2025-survey-results/findings-from-the-2025-adult-social-care-provider-technology-survey",
+
+  "date": "6 March 2026 (survey conducted February–March 2025)",
+
+  "credibility": "Government. Published by DHSC as an official statistical release. Survey of 1,085 CQC-registered adult social care providers in England, with 49% being smaller providers (supporting 11–50 people) and 23% being micro providers (supporting 10 people or fewer). The sample is self-selected (voluntary), so results may skew toward more digitally engaged providers.",
+
+  "applicability": "Directly care sector — specifically adult social care providers in England registered with CQC. Covers residential care, domiciliary care, and supported living settings.",
+
+  "citable": "Yes — government statistical release, freely available with clear attribution. Standard citation: 'Department of Health and Social Care, Findings from the 2025 adult social care provider technology survey, March 2026.' No restrictions on citation.",
+
+  "website_placement": "Pain point section (cost barriers to technology), objection-handling content ('We can't afford it'), and the ROI calculator context ('73% of providers say cost is the barrier — here's proof it pays for itself'). The 27% figure about providers not using any care technology is powerful for the hero section: 'More than 1 in 4 care providers still don't use technology for care delivery.' The support-needed data (82% want ongoing funding support) can be used to frame Clarica's pricing model. Works well as an infographic or stat block on the website.",
+
+  "emotional_vs_rational": "Primarily rational — these are cost and operational barriers that speak to business decision-making. The figures help care home owners and managers feel validated ('we're not alone in finding this expensive') while also creating a sense of industry-wide urgency. The emotional dimension comes from the 30% who fear technology replacing face-to-face care and the 34% facing staff reluctance — these tap into deeper anxieties about change and human connection in care settings.",
+
+  "clarica_differentiator": "Very strong differentiator. These statistics directly validate Clarica's positioning as an AI agency rather than a software vendor. The top three barriers are all cost-related (set-up 73%, licensing 70%, training 52%) — and an agency model that builds bespoke solutions, provides training, and charges for outcomes rather than per-seat licensing directly addresses these objections. Clarica can message: 'The biggest barrier to care technology isn't the technology itself — it's the cost model. We build AI solutions that pay for themselves.' The 41% who want better information about available technologies represents an audience Clarica can serve through content marketing.",
+
+  "refresh_frequency": "This is the first iteration of the DHSC Adult Social Care Provider Technology Survey (published March 2026 with 2025 data). DHSC has indicated intent to repeat the survey, but no confirmed schedule. The DHSC also publishes separate workforce surveys quarterly. Next update likely 2026/27.",
+
+  "comparison_pair": "The primary comparison is between cost barriers (73% set-up, 70% licensing) and the support requested (82% want ongoing funding, 67% want upfront funding) — this gap illustrates that providers know what they need but don't have the financial means. A powerful before/after: '73% of care providers say set-up costs are the biggest barrier to technology. The government's Digitising Social Care programme has helped 80% of providers adopt digital records — proving that with the right support, adoption is achievable.' Also: 27% not using any care technology vs. 73% already using DSCRs shows a bifurcated sector where AI early adopters could gain significant competitive advantage.",
+
+  "uncertain": []
+}

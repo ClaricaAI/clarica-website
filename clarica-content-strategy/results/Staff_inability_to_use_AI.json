@@ -1,0 +1,35 @@
+{
+  "id": "A8",
+  "name": "Staff inability to use AI",
+  "category": "pain_points",
+  "description": "Tools exist but staff can't/won't use them",
+
+  "severity_ranking": "High — this is the implementation-stage pain point that kills ROI on technology investments. The DHSC provider technology survey (March 2026) found: 39% cited lack of digital skills among staff as a barrier; 39% cited service user reluctance to use technology; 34% said there was reluctance from staff to use technology; 30% said there were concerns about replacing face-to-face care. 27% of providers use no care technologies at all, rising to 40% among micro providers. Many carers, 'especially older staff or those for whom English is not a first language, may struggle with unfamiliar digital tools.' The King's Fund notes an 'absence of consistent, comprehensive training programmes' leaving care workers 'underprepared to meet the demands of their current roles, let alone the added complexity of using advanced technologies.'",
+
+  "audience_affected": "Frontline care staff (directly affected — expected to use tools they don't understand), registered managers (responsible for driving adoption and dealing with resistance), operations directors (see failed rollouts and poor ROI across sites), training/L&D managers (tasked with upskilling a diverse, high-turnover workforce), CEOs/owners (frustrated that technology investments don't deliver promised returns).",
+
+  "financial_impact": "Failed technology implementations waste the entire investment — software licensing, implementation, and training costs with no return. With staff turnover at 23.1% (Skills for Care 2025), training investment walks out the door regularly. The DHSC survey found 52% cited staff training costs and staff turnover as a compound barrier — providers train staff who then leave, requiring re-investment. Poor adoption means software sits unused while managers revert to manual processes, paying for both the software and the manual labour. Estimated waste: 30-50% of technology investment is lost to poor adoption in sectors with low digital maturity.",
+
+  "emotional_trigger": "Frontline staff describe feeling anxious, stressed, and inadequate when confronted with new technology. Common language: 'I'm not a computer person,' 'They keep changing the systems on us,' 'I came into care to look after people, not to stare at a screen,' and 'Nobody showed us how to use it properly — they just gave us a login and said get on with it.' Managers describe frustration at staff resistance: 'I've got carers hiding the tablets in cupboards so they don't have to use them.' The language barrier is real — many international recruits (who now make up a growing proportion of the workforce) struggle with English-language interfaces and training materials.",
+
+  "ai_solvability": "AI can actually help solve the adoption problem — AI-powered interfaces can be simpler and more intuitive than traditional software (e.g. voice-to-text for care notes, natural language queries instead of complex reporting interfaces, automated prompts that guide users through processes). AI reduces the need for complex interactions by handling background processing invisibly. However, initial AI literacy training and change management are still essential human-led activities. The best approach combines intuitive AI tools with hands-on, role-specific training in plain language.",
+
+  "source_evidence": [
+    "DHSC provider technology survey (March 2026): 39% lack of digital skills, 34% staff reluctance, 30% concerns about replacing face-to-face care (HTN Health Tech News)",
+    "27% using no care technologies, 40% among micro providers (DHSC survey)",
+    "King's Fund: 'absence of consistent, comprehensive training programmes' (Implementation and Scaling of AI, October 2025)",
+    "Skills for Care 2025: staff turnover at 23.1%, 335,000 leavers per year",
+    "52% cited staff training costs and turnover as compound barrier (DHSC survey)",
+    "Many carers 'especially older staff or those for whom English is not a first language may struggle with unfamiliar digital tools' (Care England / Compass Associates)"
+  ],
+
+  "government_policy_driver": "Digitising Social Care programme (digital skills as one of five priorities); Digital Leadership qualification for care leaders; AI Opportunities Action Plan (workforce AI skills); NHS England Digital Academy (extending to social care); £187m government investment in digital and AI education.",
+
+  "competitor_exploitation": "Log my Care emphasises ease of use and intuitive design as their primary differentiator against complex enterprise systems. Person Centred Software markets their icon-driven interface as accessible to non-technical staff. Nourish highlights 'used daily by 80,000+ carers' as proof of adoption success. CareCallAI positions ease of use for smaller agencies. The Digital Care Hub provides free digital skills resources. However, no competitor currently offers dedicated AI adoption support services combining tool deployment with workforce training — this is a Clarica positioning opportunity.",
+
+  "content_format_fit": "Video testimonial from a care worker who overcame technology fear, interactive 'Digital Skills Self-Assessment' tool, downloadable plain-English AI guide for care staff, case study showing adoption journey from resistance to confidence.",
+
+  "objection_link": "'Our staff won't use it' — that's exactly why you need an AI agency rather than just buying software. Clarica provides hands-on training, change management, and ongoing support to drive adoption. We don't just deliver tools — we make sure your team can actually use them.",
+
+  "uncertain": ["financial_impact"]
+}

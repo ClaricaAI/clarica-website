@@ -1,0 +1,32 @@
+{
+  "id": "E12",
+  "name": "Research in Practice / Social Work England — AI Report (Jan 2026)",
+  "category": "stats",
+  "description": "Emerging AI use in social work education and practice in England",
+
+  "statistic": "Research in Practice, commissioned by Social Work England, surveyed 203 respondents (155 social workers) with 3 focus groups and 7 expert interviews (research conducted March 2025, published January 2026). Key findings: 83% believe AI could reduce administrative burdens for social workers; 62% felt AI could reduce workloads; 69% thought AI could improve case recording quality; 67% saw potential for better use of case records. However, only 47% of social workers were confident in using AI lawfully, ethically and responsibly in line with professional standards. 37% had received no learning or development on AI at all; only 13% received guidance on ethical AI use in practice; only 16% received data protection and privacy guidance. 86% of social workers graduating in the past 5 years received no AI preparation during training. 40% used AI with employer direction while 24% used generative AI without employer direction. 70% indicated benefits equal to or exceed risks, but 70% also worried about reduced critical thinking skills. The report calls for clear, consistent national guidelines on how AI should and should not be used in social work.",
+
+  "source": "Research in Practice (authored by Rothera, S. & Macdonald, M.) / Social Work England",
+
+  "source_url": "https://www.researchinpractice.org.uk/all/publications/2026/january/understanding-the-emerging-use-of-artificial-intelligence-in-social-work-education-and-practice-in-england-research-report-2026/",
+
+  "date": "21 January 2026 (publication); research conducted March 2025",
+
+  "credibility": "Sector body / regulator — Social Work England is the specialist regulator for social workers in England. Research in Practice is a well-established charity supporting evidence-informed practice in social care. A companion literature review was conducted by The Open University. Robust methodology with survey, focus groups, and expert interviews.",
+
+  "applicability": "Directly care sector — focused specifically on social work education and practice in England, covering children's services, adults' services, and NHS social work. Findings about AI adoption gaps, workforce preparedness, and the need for ethical guidelines apply broadly to the adult social care workforce that Clarica serves.",
+
+  "citable": "Yes — published by Research in Practice and available on both their website and Social Work England's publications page. Attribute to 'Rothera, S. & Macdonald, M. (2026), Understanding the emerging use of AI in social work education and practice in England, Research in Practice / Social Work England.' Highly authoritative for a social care audience.",
+
+  "website_placement": "Pain point section (AI education gap / staff inability to use AI) and trust-building content — the 83% admin burden stat is a positive headline for 'why AI' messaging, while the 47% confidence and 37% no-training figures frame the problem that Clarica helps solve. Works well as a stat block contrasting opportunity (83% see admin benefits) with readiness gap (only 47% confident, 37% untrained). Also ideal for blog content on responsible AI adoption in social care.",
+
+  "emotional_vs_rational": "Both — emotional appeal through the workforce vulnerability narrative (social workers fully accountable for AI outputs despite lacking training; 86% of recent graduates unprepared). Rational appeal through the clear data points on adoption rates, confidence levels, and training gaps that quantify the problem and justify investment in AI education and support services.",
+
+  "clarica_differentiator": "Very strong differentiator. The report reveals a massive gap between AI's potential (83% see admin benefits) and workforce readiness (47% confident, 37% no training). This is precisely the gap that Clarica fills — not just building AI tools, but providing the training, ethical guidance, and implementation support that care organisations lack. The call for 'national guidelines' validates Clarica's consultative approach to AI adoption. The finding that 24% use AI without employer direction highlights the risk of unguided adoption, which Clarica's structured approach prevents.",
+
+  "refresh_frequency": "First report of its kind — likely to be refreshed as Social Work England monitors AI adoption in the profession. The report itself notes that AI is 'fast-moving' and recommendations 'become more urgent' over time. A follow-up report within 12-18 months is plausible. Monitor Social Work England's publications page and Research in Practice's news section.",
+
+  "comparison_pair": "Opportunity vs readiness: 83% of social workers see AI reducing admin burden, but only 47% feel confident using it responsibly. Training gap: 37% have received no AI learning at all; 86% of recent graduates had no AI preparation in their degree. Guided vs unguided: 40% use AI with employer direction, but 24% use it without — highlighting the risk of ad hoc adoption without proper governance.",
+
+  "uncertain": []
+}

@@ -1,0 +1,30 @@
+{
+  "id": "B13",
+  "name": "everyLIFE Technologies (PASS)",
+  "category": "competitors",
+  "description": "1,200+ providers, 84k+ care professionals, Series A funded (£14.9M)",
+
+  "headline_messaging": "[uncertain] Exact hero headline could not be extracted due to the website's Elementor-based rendering. Based on meta descriptions and marketing materials, the positioning is: 'PASS Care Management Software — a market-leading, all-in-one care management software solution.' The company tagline visible on the About page is 'Meeting the needs of care providers.' Since launching in 2014, PASS has supported more than 1 million care professionals across home care, reablement, and residential services.",
+
+  "pain_points_targeted": "Fragmented care records across multiple systems, real-time care visibility gaps for managers and families, medication management errors, manual scheduling and rostering inefficiency, compliance documentation burden, care plan update lag (care workers not notified of changes in real time), inability to share care records with families and allied professionals in a compliant manner.",
+
+  "cta_format": "[uncertain] Specific CTA wording could not be extracted from the Elementor-rendered site. Based on navigation and page structure, the site likely uses 'Book a Demo' or 'Request a Demo' as primary CTA, with secondary navigation to pricing and solutions pages.",
+
+  "social_proof_approach": "Key stats prominently used: 1,200+ care providers supported daily, 84,000+ care professionals using the platform, 1 million+ care professionals supported since 2014, unlimited 24/7/365 customer service. NHSX Assured Supplier and PRSB Quality Partner badges. ISO 27001 certified for two consecutive years. Client count and scale metrics are the primary social proof strategy.",
+
+  "pricing_visibility": "Pricing page exists at /care-software-pricing/. Plans are charged per service user with simple monthly pricing and no hidden fees. Minimum 12-month subscription term. Custom quotes calculated based on type of care provided and number of service users. No specific price points publicly listed — contact required for actual pricing.",
+
+  "tone": "Professional and established. Positions as a market leader with emphasis on scale, reliability, and compliance. More corporate than startup-y. Trustworthy and experienced — 'in safe and experienced hands.' Less warm/emotive than competitors like Birdie.",
+
+  "ai_positioning": "AI is positioned through the dedicated 'PASSgenius' suite — described as 'The New Data, AI and Automation Suite' that turns data into action, helping care providers make faster decisions and optimise operations. AI is presented as an add-on capability within the existing PASS platform rather than the core selling point. Separate from the main care management product.",
+
+  "acquisition_strategy": "No acquisition activity — everyLIFE Technologies is independently operated. Funded through Series A and subsequent rounds, raising a total of $14.9M across 6 funding rounds. Early Series A of £4.13M in December 2016 led by Robin Batchelor (former BlackRock MD). Not acquiring others; focused on organic growth and platform development.",
+
+  "market_segment_focus": "Multi-segment: home care (domiciliary), residential care, reablement services, supported living. Also offers a startup package for new care providers. The platform is designed to scale from small single-location providers to large multi-site organisations.",
+
+  "trust_signal_type": "NHSX Assured Supplier, PRSB Quality Partner, ISO 27001 certified (two consecutive years), unlimited 24/7/365 customer service, 1,200+ provider base, 84,000+ care professionals as active users, Series A funded with institutional investors, GDPR-compliant shared care view (openPASS portal).",
+
+  "content_marketing_approach": "[uncertain] Website content was largely non-extractable due to Elementor rendering. A Content Hub exists at /content-hub/ with articles including the PASSgenius launch announcement. Blog and resource content appears to be present but depth and frequency could not be fully assessed. No visible webinars or gated eBooks from available data.",
+
+  "uncertain": ["headline_messaging", "cta_format", "content_marketing_approach"]
+}

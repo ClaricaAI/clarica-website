@@ -1,0 +1,35 @@
+{
+  "id": "A5",
+  "name": "Undefined/inconsistent processes",
+  "category": "pain_points",
+  "description": "No standardised workflows across sites",
+
+  "severity_ranking": "High — lack of process standardisation is a structural problem that underlies many operational failures. The King's Fund identifies fragmented care provision as one of six key problems in social care. There is no standardised approach to recording or linking data between care homes, the NHS, and social care services despite digitalisation. Over 50 different software systems were found in use across a single national homecare survey sample. Training inconsistency is a major symptom — providers report 'no consistency around training that people will have done when carers move between organisations,' requiring constant re-training. SCIE highlights that safeguarding procedures are often 'not followed' due to inconsistent implementation across sites.",
+
+  "audience_affected": "Operations directors (most directly affected — responsible for consistency across multiple sites), CEOs/owners (strategic concern about quality variation and brand risk), registered managers (each site develops its own way of working, making it hard to benchmark), compliance managers (inconsistency creates gaps that CQC inspectors find), frontline staff (confusion when moving between sites or roles about 'the right way' to do things).",
+
+  "financial_impact": "Inconsistent processes drive waste through duplicated effort, unnecessary re-training (staff moving between sites must be retrained even on identical tasks), inconsistent product usage and poor stock control. Training costs are inflated by the lack of a portable skills passport — one provider stated this is 'a significant proportion' of cost. Quality variation across sites in a multi-home group risks the entire brand's CQC rating if one home fails. Inconsistent reporting makes it impossible to identify inefficiencies or track improvements, hiding operational waste. Estimated cost: £5,000-£15,000 per site per year in duplicated training, wasted stock, and invisible inefficiency.",
+
+  "emotional_trigger": "Operations directors describe frustration at reinventing the wheel at every site. Common language: 'Every home does it differently,' 'We have no single source of truth,' 'New staff don't know which process to follow,' and 'I can't compare performance across my homes because everyone records things differently.' There is a sense of chaos masked by individual managers coping in their own way, which works until it doesn't — usually when CQC arrives or a serious incident occurs.",
+
+  "ai_solvability": "Partially solvable — AI can standardise outputs (e.g. auto-generating care plans from a consistent template), enforce process compliance through automated workflows and checklists, and flag deviations from standard operating procedures. However, defining the standard processes in the first place requires human expertise and organisational change management. AI works best as the enforcement and monitoring layer once processes are defined. Workflow automation tools can route tasks consistently across sites.",
+
+  "source_evidence": [
+    "National homecare survey: over 50 different software systems in use across a single survey sample (PMC/NIHR)",
+    "King's Fund: fragmented care provision identified as one of six key problems in social care",
+    "Provider quote: 'no consistency around training that people will have done, when carers move between organisations' (Joseph Rowntree Foundation / Hidden Cost of Low Pay)",
+    "SCIE: safeguarding procedures 'are not followed' due to inconsistent implementation (SCIE Commissioning Care Homes)",
+    "National Care Forum: landmark study delivering standardised dataset to transform care for older people — confirming standardisation gap exists",
+    "Inconsistent product usage and poor stock control leads to waste and inefficient spending (Acticare sustainability report)"
+  ],
+
+  "government_policy_driver": "Digitising Social Care programme (DSCR standards as a form of process standardisation); CQC Single Assessment Framework (requiring consistent evidence formats); NHS England Social Care Programme (interoperability standards for data sharing).",
+
+  "competitor_exploitation": "Person Centred Software targets multi-site operators with their Connected Care Platform, marketing unified care planning across all homes. Birdie offers 'one unified platform' that standardises processes for home care agencies. The Access Group markets enterprise-level care management for complex multi-site organisations. QCS (Quality Compliance Systems) sells standardised policy and procedure templates. However, standardisation through software alone doesn't solve the underlying process design problem — it merely digitises inconsistency.",
+
+  "content_format_fit": "Case study showing a multi-site operator achieving process consistency, downloadable 'Process Standardisation Checklist for Care Groups,' before/after data visualisation showing operational metrics once processes are unified.",
+
+  "objection_link": "'Every home is different — you can't standardise care' — standardisation applies to processes and workflows, not to individual care. Person-centred care is the output; standardised processes ensure every resident gets the same quality of assessment, review, and documentation regardless of which site they're in.",
+
+  "uncertain": ["financial_impact"]
+}

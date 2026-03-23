@@ -1,0 +1,36 @@
+{
+  "id": "A7",
+  "name": "High cost of external software",
+  "category": "pain_points",
+  "description": "Care sector priced out of enterprise tools",
+
+  "severity_ranking": "High — cost is the single most cited barrier to technology adoption in social care. The DHSC provider technology survey (March 2026) found 73% of providers cited set-up costs and 70% cited licensing costs as barriers. 52% said staff training costs and staff turnover compound the financial burden. 41% cited cyber and data security costs. 40% noted availability of good internet connectivity as an additional infrastructure cost. The Nuffield Trust notes that 'many organisations operate with such tight budgets that purchasing advanced tools remains unaffordable beyond covering daily operational expenses.' Small and micro providers are disproportionately affected — 27% of respondents reported using no care technologies at all, rising to 40% among micro providers.",
+
+  "audience_affected": "CEOs/owners (make purchasing decisions and feel the budget pressure most acutely), operations directors (responsible for ROI on technology investments), finance directors/managers (balancing technology spend against staffing and care delivery costs), registered managers (frustrated when told there's no budget for tools they need). Small independent providers and micro providers are the most severely affected — they lack purchasing power, volume discounts, and dedicated IT budget.",
+
+  "financial_impact": "Care home software pricing ranges from £3 to £24 per bed per month (Access Group), with enterprise-level platforms significantly more expensive. For a 60-bed care home, annual software costs range from £2,160 to £17,280 before implementation, training, and integration fees. Implementation timelines for enterprise systems are longer, adding to cost. Modular pricing means providers start with basic packages but costs escalate as they add modules. Hidden costs include: implementation fees, data migration, staff training (52% cited as barrier), ongoing support charges, and premium feature charges. For comparison, some newer platforms like CareCallAI offer from £99/month with no per-user fees, but these lack the depth of enterprise solutions.",
+
+  "emotional_trigger": "Care providers feel trapped between knowing they need better technology and being unable to afford it. Common language: 'We know we need to go digital but we simply can't afford the good systems,' 'The cheap ones are rubbish and the good ones are too expensive,' 'Every vendor says they'll save us money but the upfront cost is prohibitive,' and 'We're running on razor-thin margins — any new cost has to justify itself immediately.' There is resentment that the care sector, which performs essential public service, is expected to fund enterprise-grade technology from margins that barely cover staffing costs.",
+
+  "ai_solvability": "AI can partially address cost concerns by delivering high-value outcomes without requiring enterprise-level software investment. AI tools can be deployed as targeted solutions for specific problems (e.g. care plan generation, report building, compliance monitoring) rather than requiring a full platform purchase. AI-as-a-service models offer pay-per-use pricing that aligns with tight budgets. However, AI tools still require some digital infrastructure — providers with no digital care records cannot benefit from AI until they digitise baseline data. The Digitising Social Care programme provides funding for initial digitisation.",
+
+  "source_evidence": [
+    "DHSC provider technology survey (March 2026): 73% cited set-up costs, 70% cited licensing costs as barriers (HTN Health Tech News)",
+    "52% cited staff training costs and turnover as barrier; 41% cited cyber/data security costs (DHSC survey)",
+    "27% of providers using no care technologies, rising to 40% among micro providers (DHSC survey)",
+    "Nuffield Trust: 'many organisations operate with such tight budgets that purchasing advanced tools remains unaffordable' (2025)",
+    "Access Group: care home software pricing £3-£24 per bed per month (Access Group blog 2026)",
+    "CareCallAI: from £99/month with no per-user fees (CareCallAI 2026)",
+    "Nourish: £100/month for smaller models, £2-£3.50 per client per week for larger (Birdie comparison 2026)"
+  ],
+
+  "government_policy_driver": "Digitising Social Care programme (provided funding for digital social care records adoption — 80% of providers now digital); Better Care Fund (potential funding source for technology adoption); Digital Leadership qualification (reducing need for expensive external consultants).",
+
+  "competitor_exploitation": "Log my Care positions as the affordable, intuitive alternative for smaller providers, offering a free tier. CareCallAI markets from £99/month with no per-user fees. The Access Group offers tiered pricing starting at £3/bed/month. Birdie and Nourish target different segments with different price points. Person Centred Software markets scale — used by 8,000+ providers — implying volume pricing. All competitors use cost as a key differentiator against each other, but the sector remains split between 'affordable but limited' and 'capable but expensive.'",
+
+  "content_format_fit": "ROI calculator ('What is admin overload really costing you vs what AI tools cost?'), pricing comparison table, case study showing cost savings achieved by a small provider using AI, downloadable funding guide for care technology grants.",
+
+  "objection_link": "'We can't afford AI tools' — AI-as-a-service pricing means you pay for outcomes, not seats. A targeted AI tool that saves 20 hours of manager time per week pays for itself in the first month. Additionally, government funding through the Digitising Social Care programme and Better Care Fund can offset costs.",
+
+  "uncertain": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "E4",
+  "name": "GOV.UK — Digital revolution in care saves millions of admin hours (Dec 2025)",
+  "category": "stats",
+  "description": "30M admin hours saved, 20 mins per worker per shift, care plans in 3 days vs 7",
+
+  "statistic": "The UK government announced that digital social care records (DSCRs) save an estimated 30 million administrative hours per year, giving back at least 20 minutes per care worker per shift. Care plans can now be completed and signed off in 3 days instead of 7, and reviewed in 30 minutes instead of 4 hours. Four in five (80%) care providers now use DSCRs, helping almost 90% of people who draw on care. The number of providers using DSCRs doubled from 40% to 80%. DSCRs are part of the government's landmark ambition to develop a single patient record. The announcement was made by Stephen Kinnock, Minister of State for Care, following a visit to Kallar Lodge, a residential care home in Dagenham. He stated the approach 'cuts paperwork, helps reduce errors and gives carers more time to care.' Regional example: PrimeCare in the East of England manages 10,000 records weekly using DSCRs, and more than 80% of adult social care providers in the East of England region have adopted digital records.",
+
+  "source": "Department of Health and Social Care (DHSC) / GOV.UK",
+
+  "source_url": "https://www.gov.uk/government/news/digital-revolution-in-care-saves-millions-of-admin-hours",
+
+  "date": "5 December 2025",
+
+  "credibility": "Government. Official GOV.UK press release from the Department of Health and Social Care, announced by the Minister of State for Care. The underlying data comes from the Digitising Social Care programme, which is the government's flagship programme for digital transformation in adult social care. The 30 million hours figure is an estimate based on programme data rather than an independently audited figure.",
+
+  "applicability": "Directly care sector — specifically adult social care in England. The statistics relate to digital social care records, which are the foundational digital infrastructure for care homes and domiciliary care providers.",
+
+  "citable": "Yes — official government press release, freely available for citation. Standard citation: 'Department of Health and Social Care, Digital revolution in care saves millions of admin hours, GOV.UK, 5 December 2025.' The government imprimatur gives this stat significant weight and credibility when used on a commercial website.",
+
+  "website_placement": "Hero section — the 20 minutes per shift stat is immediately relatable and powerful for care managers. '20 minutes per care worker per shift. That's what digital records already save. Now imagine what AI can do on top of that.' Also works in the social proof bar: '30 million admin hours saved per year through digital care records.' The care plan stat (3 days vs 7) is perfect for workflow-specific content sections. The 80% adoption rate works as a momentum stat: 'Four in five care providers have already gone digital. Are you making the most of it?'",
+
+  "emotional_vs_rational": "Both, but particularly strong on rational appeal. The 20 minutes per shift is a concrete, measurable time saving that managers can translate directly into staff capacity. The 30 million hours figure is emotionally powerful at scale — it represents millions of additional caring hours returned to residents. The care plan review stat (30 minutes vs 4 hours) is a visceral before/after that resonates with anyone who has sat through a lengthy manual care plan review. The ministerial endorsement adds political weight and signals government backing for digital transformation.",
+
+  "clarica_differentiator": "Very strong differentiator. This stat establishes the baseline: digital records save 20 minutes per shift. Clarica's AI solutions build on this foundation to deliver the next wave of productivity gains. The framing: 'Going digital was step one — 80% of providers have done it. Step two is AI. That's where the real transformation happens.' This positions Clarica at the cutting edge of an established government-backed trend rather than asking buyers to take a leap of faith into uncharted territory. It also supports the 'AI agency' positioning: Clarica helps providers who have already digitised to extract maximum value from their data through AI.",
+
+  "refresh_frequency": "Ad hoc government announcements. The Digitising Social Care programme publishes updates periodically but not on a fixed schedule. The adoption rate (80%) may be updated in future DHSC publications. The 30 million hours estimate may be revised as more providers adopt and as the programme collects more usage data. The DHSC technology survey (published March 2026) provides complementary data.",
+
+  "comparison_pair": "Before/after: care plans completed in 3 days instead of 7 (57% time reduction). Care plan reviews in 30 minutes instead of 4 hours (87.5% time reduction). Adoption doubled from 40% to 80%. The key comparison for Clarica: 'Digital records save 20 minutes per shift. AI-assisted care planning saves hours per week. Together, they transform how care homes operate.' Also: 80% of providers now use digital records vs. 27% not using any care technology at all (DHSC survey) — highlighting that basic digitisation has taken hold but advanced AI adoption remains a frontier opportunity.",
+
+  "uncertain": []
+}

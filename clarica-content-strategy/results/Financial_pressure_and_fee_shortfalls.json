@@ -1,0 +1,28 @@
+{
+  "id": "A11",
+  "name": "Financial pressure and fee shortfalls",
+  "category": "pain_points",
+  "description": "Only 1% of homecare contracts meet minimum price benchmark, £1.6bn funding gap",
+
+  "severity_ranking": "Very high — ranked among the top pain points in the sector. The Homecare Association's 2025-26 fee rate survey found only 1% of contracts met the minimum price benchmark, and 30% of councils did not pay enough to cover the national living wage. The funding deficit is estimated at £1.9bn for homecare alone (updated from the initial £1.6bn figure), with the Nuffield Trust estimating a total £2.8bn funding gap for adult social care in 2025-26. This is consistently the most-cited existential threat to provider viability.",
+
+  "audience_affected": "CEO/owner and operations director feel this most acutely — they bear the financial risk and must decide whether to hand back contracts. Registered managers experience it through understaffing and resource constraints. Frontline staff feel it through low wages, high workloads, and lack of investment in tools and training.",
+
+  "financial_impact": "The average council fee rate is £24.10/hour against a minimum safe price of £32.14/hour — a shortfall of £8.04 per hour per care worker. For a typical homecare provider delivering 2,000 hours/week, this equates to roughly £16,000/week (£835,000/year) in underfunding. Providers face additional cost shocks from the national living wage increase (£11.44 to £12.21/hour) and employer NIC rising from 13.8% to 15% with the threshold dropping from £9,100 to £5,000. 75% of care providers anticipated reducing or halting digital transformation projects due to financial constraints (Care Provider Alliance, November 2024). Provider failures and contract hand-backs are increasing, directly threatening continuity of care.",
+
+  "emotional_trigger": "\"We're running on empty.\" \"We can't recruit because we can't compete with supermarkets on pay.\" \"The council expects us to deliver safe care at a rate that doesn't even cover the minimum wage.\" \"We're being asked to do more with less every single year.\" The Homecare Association has described the situation as 'State-Sponsored Labour Exploitation' in official reports.",
+
+  "ai_solvability": "Partially solvable. AI cannot fix the structural funding gap, but it can reduce operational costs through: automated scheduling and route optimisation (reducing travel time and mileage costs), AI-generated care documentation (reducing admin hours), predictive staffing models (reducing agency spend), and automated invoicing and compliance reporting (reducing back-office overhead). Estimated 15-30% admin time savings could meaningfully improve margins at current fee levels.",
+
+  "source_evidence": "Homecare Association Minimum Price for Homecare 2025-26 report (December 2024): only 1% of contracts met the benchmark. Homecare Association Fee Rates for State-Funded Homecare in 2025-26 (June 2025): average council rate £24.10/hour vs minimum £32.14/hour. Community Care reporting (June 2025): £1.6bn deficit, updated to £1.9bn. Community Care (November 2025): home care funding £2bn short. Institute for Government Performance Tracker 2025. Care Provider Alliance survey (November 2024): 75% anticipated halting digital transformation. Nuffield Trust: £2.8bn overall funding deficit estimate for 2025-26.",
+
+  "government_policy_driver": "Digitising Social Care programme (reducing admin costs through digital records), 10 Year Health Plan (broader NHS/social care integration), Fair Cost of Care reforms (intended to address fee sustainability but implementation patchy).",
+
+  "competitor_exploitation": "Person Centred Software leads with 'Less time on admin' — positioning digital care records as an efficiency gain that helps offset fee pressures. Log My Care offers a free Starter plan, explicitly targeting providers who cannot afford premium software. Birdie's blog references 'transitioning to a sustainable private pay model' as a growth strategy. Care Control emphasises 'ethical, transparent pricing' and 'no hidden fees' to appeal to cost-conscious providers.",
+
+  "content_format_fit": "Interactive fee shortfall calculator (input your council rate, see your annual gap), data visualisation showing the widening gap between costs and fees over time, stat block with headline £1.9bn figure, downloadable ROI calculator showing how AI-driven efficiency can partially close the gap.",
+
+  "objection_link": "\"We can't afford new technology when we're already losing money on every hour of care.\" Counter: AI tools can reduce admin costs by 15-30%, partially offsetting the fee shortfall — and some solutions (like Log My Care) offer free tiers. The cost of not digitising is higher: manual processes consume 20+ hours/week in admin that could be redirected to billable care delivery.",
+
+  "uncertain": ["financial_impact"]
+}

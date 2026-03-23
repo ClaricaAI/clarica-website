@@ -1,0 +1,35 @@
+{
+  "id": "A6",
+  "name": "Existing software limitations",
+  "category": "pain_points",
+  "description": "Current systems don't do what's needed",
+
+  "severity_ranking": "High — a fundamental blocker to digital transformation. A national homecare survey found over 50 different software systems in use, with one third using systems not on the government's register of assured providers. Common limitations include: systems that lack reporting as a built-in feature or prevent customisation; inability to export complete datasets; poor integration between systems causing fragmented information; generic templates that reduce care personalisation; and data quality concerns where digital automation actually degrades recording quality compared to paper. The ease of automation raises concerns over person-centred recording, with 'generic templates, charts, checklists and plans potentially reducing the nuance needed in learning disability care.'",
+
+  "audience_affected": "Registered managers (daily users frustrated by system limitations), operations directors (unable to aggregate data across sites using disparate systems), compliance managers (reporting gaps hinder CQC evidence preparation), IT/digital leads in larger groups (integration headaches), CEOs/owners (poor ROI on technology investments). Frontline staff experience frustration when systems are clunky, slow, or require duplicate entry.",
+
+  "financial_impact": "Direct costs include licensing fees for systems that don't meet needs (£2-£24 per bed per month depending on modules — Access Group pricing). Switching costs are high: time to research alternatives, transfer data, retrain staff, and run parallel systems during transition. A lack of time was frequently cited as a barrier to changing systems, including 'time needed to research the market, transfer paper or digital information into a new system, system implementation whilst maintaining care provision, and staff training.' Modular pricing structures become expensive as organisations scale. Poor reporting means managers spend additional hours manually compiling data that the system should provide automatically.",
+
+  "emotional_trigger": "Care managers describe deep frustration with systems that promised much but delivered little. Common language: 'We bought it to save time but it's just as much work as paper,' 'The system can't do what we need so we end up using spreadsheets alongside it,' 'We're locked into a contract with a system that doesn't talk to anything else,' and 'Every time we ask for a new feature they say it's on the roadmap.' The feeling of being stuck — unable to go back to paper but unable to move forward with inadequate software — is pervasive. Productivity declines during transitions add further demoralisation.",
+
+  "ai_solvability": "AI addresses many software limitations by adding an intelligence layer on top of existing systems rather than requiring wholesale replacement. AI can: generate custom reports from any data source, bridge integration gaps through data aggregation, produce personalised care narratives from structured data (solving the generic template problem), and provide insights that current dashboards cannot. However, AI still requires clean data inputs — if underlying systems capture poor data, AI outputs will be limited. Best approach is AI augmentation of existing systems rather than full replacement.",
+
+  "source_evidence": [
+    "National homecare survey: over 50 different software systems in use, one third not on DSCR assured list (PMC/NIHR)",
+    "Log my Care: 'Some care home management software doesn't have reporting as a built-in feature or, if they do, users are unable to create or customise them'",
+    "Common limitations: inability to export complete datasets, difficulty combining information, inability to customise export configurations (Log my Care)",
+    "Generic templates raise concerns over person-centred recording, 'reducing the nuance needed in learning disability care' (PMC research)",
+    "Barriers to switching: 'time needed to research the market, transfer data, implement whilst maintaining care provision, and staff training' (PMC homecare survey)",
+    "Access Group pricing: £3-£24 per bed per month depending on modules (Access Group blog 2026)"
+  ],
+
+  "government_policy_driver": "Digitising Social Care programme (DSCR standards to raise minimum software quality); NHS England interoperability requirements (GP Connect, shared care records); 10 Year Health Plan (single patient record requiring systems to share data).",
+
+  "competitor_exploitation": "Person Centred Software positions against legacy competitors with their 'Connected Care Platform' integrating care planning, eMAR, staffing, and wellbeing. Birdie markets 'stop juggling multiple systems' with an all-in-one platform. Nourish emphasises real-time recording and ease of use vs clunky legacy systems. Log my Care targets small providers frustrated by expensive, complex alternatives. The Access Group markets migration support for switching from legacy systems. The market is consolidating — competitors are acquiring other companies to fill feature gaps (Access Group strategy).",
+
+  "content_format_fit": "Comparison table ('What your current software does vs what AI can add'), diagnostic quiz ('Is your care software holding you back?'), video walkthrough showing AI augmenting an existing system rather than replacing it.",
+
+  "objection_link": "'We just invested in new software — we can't switch again' — AI doesn't require switching. It sits on top of existing systems, extracting data, generating insights, and producing outputs that your current software cannot. No rip-and-replace needed.",
+
+  "uncertain": []
+}

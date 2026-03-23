@@ -1,0 +1,28 @@
+{
+  "id": "A14",
+  "name": "Burnout and morale among care staff",
+  "category": "pain_points",
+  "description": "20+ hours/week on admin instead of care, 45% say it impacts care quality",
+
+  "severity_ranking": "Very high — a survey of NHS and social care managers found many felt they 'wasted' more than 20 hours a week on bureaucracy, with 45% of respondents saying the time spent on admin was impacting service users' health or care. The MARQUE longitudinal study found burnout directly correlated with staff turnover in UK care homes. 36% of care home providers reported workforce challenges negatively impacting service delivery. The 2025 adult social care workforce survey found 47% selected 'increased workload and pressure' as a concern, and 33% selected 'increased stress and risk of burnout'. This is a compounding pain point that drives the staffing crisis, increases agency costs, and ultimately degrades care quality.",
+
+  "audience_affected": "Frontline care staff experience this most directly — they are caught between administrative requirements and the desire to provide person-centred care. Registered managers bear the dual burden of clinical and administrative leadership. CEO/owners feel the downstream effects through high turnover (estimated 28-34% annually in social care), increased agency spend, and declining CQC ratings.",
+
+  "financial_impact": "Staff turnover in adult social care costs an estimated £3,000-£5,000 per replacement (recruitment, training, agency cover). With vacancy rates of approximately 8-9% and turnover rates of 28-34%, workforce instability is the sector's largest cost driver after wages. Agency staff costs can be 50-100% higher than permanent staff rates. The administrative tasks consuming the most time were rota scheduling (43%), documentation and record-keeping (30%), and speaking to agencies to secure cover staff (21%). Nearly half (48%) said paperwork prevented them from doing the job they should be doing, and 45% admitted admin had been a drain on team morale.",
+
+  "emotional_trigger": "\"I didn't get into care to sit at a desk filling in forms.\" \"I feel guilty every time I'm doing paperwork instead of spending time with my residents.\" \"Staff are leaving because they're burned out — and then we're even more short-staffed.\" \"We're drowning in audits, policies, and incident follow-ups that pull us away from caring for people.\" The CQC State of Care report consistently highlights that 'burnout, stress, and unsafe workloads are eroding morale, and ultimately, quality.'",
+
+  "ai_solvability": "Highly solvable — this is one of the most directly addressable pain points through AI. Specific applications include: AI-generated care notes from voice recordings or structured prompts (reducing documentation time by 50-70%), automated rota scheduling and shift-filling (addressing the 43% time drain), predictive absence management to reduce last-minute agency bookings, automated audit preparation and compliance reporting, AI-drafted handover notes and care plan reviews. The government estimates digital care records alone save 20 minutes per care worker per shift, with 30 million admin hours saved per year across the sector.",
+
+  "source_evidence": "Nursing in Practice survey: 20+ hours/week on bureaucracy, 45% say it impacts care quality, 48% say paperwork prevents them doing their job, 43% cite rota scheduling as top time drain. MARQUE English national care home longitudinal survey (PMC/Age and Ageing, 2019): burnout linked to turnover. CQC State of Care 2024-25 and Workforce Stress and Burnout report. Skills for Care State of the Adult Social Care Workforce report. GOV.UK: 'Digital revolution in care saves millions of admin hours' — 30 million hours/year saved, 20 minutes per shift. Adult social care workforce survey April 2025: 47% cite increased workload/pressure, 33% cite burnout risk.",
+
+  "government_policy_driver": "Digitising Social Care programme (30 million admin hours saved/year target), 10 Year Health Plan (workforce wellbeing strand), NHS People Plan (applicable to social care workforce), AI Opportunities Action Plan (January 2025 — includes social care applications).",
+
+  "competitor_exploitation": "Person Centred Software's hero message is literally 'Less time on admin. Happier teams. Better care.' — directly addressing this pain point. Sona focuses on workforce management and shift-filling to reduce scheduling burden. Care Control positions MargoAI as saving 'time and money while delivering outstanding care'. Log My Care emphasises intuitive recording that minimises training overhead. Nourish Care's 'record at the point of care' mobile app targets documentation time reduction.",
+
+  "content_format_fit": "Admin time audit calculator (input your team size, see hours lost to paperwork), before/after case study with measurable time savings, video testimonial from a registered manager who reclaimed care time through AI, infographic showing the 20-hour admin burden vs care time split, interactive ROI calculator showing staff retention savings.",
+
+  "objection_link": "\"Staff won't use new technology — it'll just be more to learn on top of everything else.\" Counter: Modern AI tools are designed for non-technical users — voice-to-text care notes, one-tap shift claims, auto-generated reports. The 2025 survey found that among providers using digital records, 90% of people receiving care benefited. The biggest risk is not adopting: continued burnout drives turnover, which costs £3,000-£5,000 per leaver and leaves remaining staff even more stretched.",
+
+  "uncertain": []
+}

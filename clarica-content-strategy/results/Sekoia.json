@@ -1,0 +1,30 @@
+{
+  "id": "B7",
+  "name": "Sekoia",
+  "category": "competitors",
+  "description": "Care delivery platform",
+
+  "headline_messaging": "Hero headline: \"Digital care planning and management for all service types.\" Core value proposition: \"Turn your care recordings into evidence of your commitment to quality, compliance, and care delivery.\" Positions itself as an award-winning, flexible Digital Care Planning and Management system suitable for all service types.",
+
+  "pain_points_targeted": "Time-consuming paperwork (leads with '90 minutes per staff saved'), compliance complexity across CQC/Care Inspectorate Wales/Care Inspectorate Scotland, information accessibility for care teams, care coordination challenges, manual reporting inefficiencies, paper waste (claims a typical nursing home saves 30,000 sheets of paper by switching — equivalent to 2–3 trees per month).",
+
+  "cta_format": "Primary CTA: \"Book Meeting\" — a top-navigation link with prominent placement. Secondary CTA: \"Log in\" for existing users. No free trial or self-serve demo option visible. Directs prospects to a meeting/consultation format.",
+
+  "social_proof_approach": "Customer logos: Active Prospects, WeCan Suffolk, Aldingbourne Trust, Birtley House. Named testimonial quote from Helen Peach, Registered Manager: \"It's much easier for staff to document as they go, saving valuable time...helps to individualise care.\" Three featured case studies: Quinton House, Nexus Programme, Birtley House. Industry partnerships with Care Workers Charity and National Care Forum. Accredited by NHS Transformation Directorate as an Assured Supplier for DSCR.",
+
+  "pricing_visibility": "No pricing information displayed on the website. Users must book a meeting to discuss pricing. No visible freemium or calculator.",
+
+  "tone": "Professional yet approachable. Benefits-focused language mixed with person-centred care messaging. Emphasises time savings and compliance without being overly technical. Warm and supportive, targeting care managers who may not be tech-savvy.",
+
+  "ai_positioning": "AI is not mentioned or promoted on the website. Product is positioned around digitisation, compliance, and efficiency rather than artificial intelligence. Focus remains on digital care records and task management.",
+
+  "acquisition_strategy": "Acquired by KMD (a major Danish IT company) in January 2024. With the new KMD setup, Sekoia is positioned to grow and build on 'a new generation of digital for social care.' Being acquired signals the company is part of a larger consolidation trend in care tech.",
+
+  "market_segment_focus": "Multi-segment: residential care, learning disability services, supported living, day services, respite care, and work experience programmes. Serves all service types with flexible, customisable modules. Positioned for both small single-home providers and larger multi-site organisations.",
+
+  "trust_signal_type": "NHS Transformation Directorate Assured Supplier for Digital Social Care Records (DSCR), regulatory compliance badges for CQC/Care Inspectorate Wales/Care Inspectorate Scotland, industry partnerships (Care Workers Charity, National Care Forum), named customer testimonials with job titles, established parent company (KMD, Copenhagen-based).",
+
+  "content_marketing_approach": "Limited content marketing visible. Support/Help Centre linked via Zendesk portal. Case studies section with three named examples. News/Blog referenced in navigation. No visible eBooks, webinars, or gated content. Content strategy appears relatively light compared to larger competitors.",
+
+  "uncertain": ["pricing_visibility"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "B2",
+  "name": "Nourish Care",
+  "category": "competitors",
+  "description": "Care planning and recording platform",
+
+  "headline_messaging": "Hero text: 'The care platform with the person at the centre.' Supporting value proposition: 'Managing care made simple. Collaborate better, align care faster and improve outcomes.' The messaging emphasises person-centred care philosophy, operational simplicity, and tangible outcome improvements. Secondary messaging positions Nourish as 'the most trusted digital care planning provider in the UK' supporting 400,000 people across care settings. The platform is presented as both a care delivery tool and a cultural transformation enabler.",
+
+  "pain_points_targeted": "Care planning complexity and fragmentation (primary), administrative burden in care recording, communication gaps between care teams, staff retention through better working tools, compliance with CQC standards, difficulty scaling care management across multiple sites. A testimonial from Kingsway Care highlights staff retention through flexible rostering — suggesting workforce management is an emerging focus alongside core care planning.",
+
+  "cta_format": "Primary CTA: 'Book a Demo' (appears multiple times across the page, consistent prominence). No secondary CTAs of note — the entire conversion path funnels toward demo booking. No free trial, self-serve signup, or interactive tool. This is a demo-first sales model consistent with mid-to-enterprise positioning.",
+
+  "social_proof_approach": "Quantified impact stats (though presented in general terms — 'thousands of care services', 'millions of hours of care delivered' — rather than precise numbers). Client testimonials from named organisations: Richmondwood Care Home, ivolve Care, Carewise, Kingsway Care. Documentary series ('A Better Life') as an innovative social proof vehicle. 10+ years in the care sector as a longevity signal. Team members with direct care experience (humanising the brand). The approach is more narrative and values-driven than data-heavy.",
+
+  "pricing_visibility": "Not visible on the website. Requires demo booking to access pricing. Third-party sources indicate a fixed flat rate starting at £195/month with limited features, with full plans potentially 50% more expensive than competitors. Minimum contract length of 12 months. This pricing opacity is standard for the sector but may disadvantage Nourish against Log My Care's transparent and free-tier approach.",
+
+  "tone": "Compassionate yet professional. Language centres human dignity ('person at the centre') while maintaining business credibility. Conversational but authoritative. More emotionally warm than Person Centred Software's clinical tone, and more polished than Log My Care's startup-friendly voice. The documentary series reflects a brand that invests in storytelling and community building.",
+
+  "ai_positioning": "Emerging but cautious. A dedicated /ai page exists but receives no prominent homepage treatment. AI is described as 'explainable and privacy safe by design' — explicitly positioning it as supporting professional judgment rather than automating empathy. The messaging states 'every model is explainable and auditable' and was 'developed with care professionals, families, and people receiving care.' This careful, ethics-first AI positioning reflects sector anxieties about AI replacing human care but also limits the boldness of their AI claims. AI appears secondary to core care management functionality.",
+
+  "acquisition_strategy": "Active acquirer. Nourish Care acquired Care Planner Ltd., expanding into community care management. This signals a growth-through-acquisition strategy similar to Person Centred Software, though at a smaller scale. The company is positioning for broader market coverage across residential, domiciliary, and community care settings.",
+
+  "market_segment_focus": "Multi-segment: small care homes (explicitly mentioned), large care providers (scales to 50,000 people), home care agencies, residential care, nursing, learning disabilities, domiciliary care, and supported living. The platform explicitly claims to scale from small independents to large groups, positioning against both budget competitors (Log My Care) and enterprise players (Person Centred Software).",
+
+  "trust_signal_type": "ISO 27001:2022 certified, Cyber Essentials Plus compliant, first digital care planning provider on the NHS Assured Solutions List, PRSB Quality Partner (first company to achieve certification for Social Care and Support Plans interoperability standards), NHS Digital Transformation Assured Solution. These are strong, verifiable trust signals — particularly the 'first on NHS Assured' claim, which provides a differentiated credibility story.",
+
+  "content_marketing_approach": "Significant investment in diverse content formats: documentary series ('A Better Life'), articles and thought leadership (including AI in care, social care innovation, women in tech), case studies, news updates, activity planning guides, video library and webinars, press coverage collection. The documentary series is a distinctive and premium content investment that competitors have not matched. Recent articles cover AI in social care, suggesting content strategy is evolving to address emerging topics.",
+
+  "uncertain": ["pricing_visibility"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "E6",
+  "name": "UK 10 Year Health Plan (2025)",
+  "category": "stats",
+  "description": "Up to £10bn in NHS tech by 2028/29, AI as one of 5 transformative technologies",
+
+  "statistic": "The UK Spending Review (June 2025) committed up to £10 billion for NHS technology and digital transformation by 2028-29, a nearly 50% increase on the current financial year. The 10 Year Health Plan (published July 2025) names AI as one of 5 transformative technologies (data, AI, genomics, wearables, robotics) and commits to making the NHS 'the most AI-enabled health system in the world' with all hospitals fully AI-enabled by 2035. NHS organisations must reserve at least 3% of annual spend for one-time investments in service transformation. The plan also includes £600 million for a Health Data Research Service (with the Wellcome Trust) and targets 2% annual productivity growth unlocking £17 billion in savings over three years.",
+
+  "source": "UK Government / Department of Health and Social Care / NHS England",
+
+  "source_url": "https://www.gov.uk/government/publications/10-year-health-plan-for-england-fit-for-the-future/fit-for-the-future-10-year-health-plan-for-england-executive-summary",
+
+  "date": "July 2025 (10 Year Health Plan publication); June 2025 (Spending Review announcing £10bn tech commitment)",
+
+  "credibility": "Government — primary legislation and spending review commitment from HM Treasury and DHSC",
+
+  "applicability": "Directly healthcare and social care — the plan covers NHS and adult social care integration, digital-by-default care delivery, and social care workforce reform",
+
+  "citable": "Yes — official UK Government publication, freely available on GOV.UK. Clear attribution to 'Fit for the Future: 10 Year Health Plan for England' and the 2025 Spending Review.",
+
+  "website_placement": "Hero section or above-the-fold stat block — the £10bn commitment and 'most AI-enabled health system' ambition are high-impact headline stats. Also strong for a dedicated 'Why AI in Care?' or 'Government Backing' section. The 5 transformative technologies list works well in a visual infographic or icon row.",
+
+  "emotional_vs_rational": "Primarily rational — appeals to decision-makers with concrete investment figures and government backing. Secondary emotional appeal through the vision of a modernised, prevention-focused NHS that reduces burden on care staff. The 'all hospitals AI-enabled by 2035' target creates urgency for early adopters.",
+
+  "clarica_differentiator": "Strong differentiator. The plan's emphasis on AI as a transformative technology across health AND care settings validates Clarica's positioning as an AI agency serving social care. The explicit government mandate for digital transformation creates a policy tailwind — Clarica can position itself as helping providers align with government direction rather than selling optional technology. The 3% innovation spend requirement gives care providers budget justification for AI investment.",
+
+  "refresh_frequency": "The 10 Year Health Plan is a one-off strategic document, but implementation milestones will be tracked annually. The Spending Review figures cover the period to 2028-29. Next major refresh expected with subsequent Spending Reviews (typically every 2-3 years). Progress updates expected annually via NHS England.",
+
+  "comparison_pair": "Before: NHS described as running on 'outdated technology' with a 7.43 million procedure waiting list (January 2025). After: £10bn committed to make NHS 'digital by default' with all hospitals AI-enabled by 2035. Also: previous NHS IT programme (2003) had £12.7bn budget but failed to deliver comprehensive electronic health records — this plan represents a second, more AI-focused attempt.",
+
+  "uncertain": []
+}

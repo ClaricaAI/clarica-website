@@ -1,0 +1,30 @@
+{
+  "id": "B4",
+  "name": "Sona",
+  "category": "competitors",
+  "description": "Workforce management for care, 'Take a tour' CTA",
+
+  "headline_messaging": "Hero text: 'AI for better workforce decisions.' Supporting subheadline: 'Sona helps large organisations improve efficiency and performance by raising the quality of workforce decisions across every location.' The messaging is outcome-focused and AI-forward — unusually bold for the care sector. Core benefits emphasised: workforce efficiency, service quality, and manager performance optimisation. Secondary tagline: 'Clear decisions. Lower costs. Better performance.' The positioning is distinctly different from care-first competitors — Sona leads with operational intelligence rather than care quality.",
+
+  "pain_points_targeted": "Workforce scheduling and rota management (primary), labour cost control, shift-filling and agency dependency, manager decision-making quality, staff engagement and retention, HR administration overhead, compliance with employment regulations, payroll accuracy. Sona targets the operational and financial pain points rather than clinical care delivery — positioning workforce management as the lever that enables better care indirectly.",
+
+  "cta_format": "Primary CTA: 'Book a demo.' Secondary CTAs: 'Take a tour' (self-guided product walkthrough — confirmed from user description), 'See Raffy in action' (AI assistant demo). The 'Take a tour' CTA is a lower-friction alternative to demo booking — allowing prospects to self-serve before committing to a sales conversation. This is unusual in the care tech sector and signals a more modern, product-led growth approach.",
+
+  "social_proof_approach": "Quantified client outcomes with specific financial metrics from named organisations: Liaise — '2% Revenue Saved' annually; Paul Bakery — '40h Saved Per Week' in HR admin, 100% app adoption; Salutem Healthcare — '1.5% Labour Reduction' of payroll, '$1.7M Workforce Savings' annually; Popeyes UK — '4% Labour Cost Reduction', '1% point Labour Saving.' 30+ enterprise client logos displayed (Paul, Pizza Pilgrims, Popeyes, Salutem, Hawksmoor, Cote). The social proof approach is heavily ROI-focused — designed for CFO/COO decision-makers who need financial justification.",
+
+  "pricing_visibility": "Not displayed on homepage. A '/pricing' page exists in navigation but no rates are shown on the main landing page. Given the enterprise positioning and named clients of significant scale, pricing is likely custom-quoted based on headcount, locations, and modules. The consultative pricing approach matches the enterprise sales motion.",
+
+  "tone": "Professional, confident, results-driven. Language emphasises tangible outcomes rather than emotional care narratives. More 'tech startup meets enterprise SaaS' than traditional care sector warmth. The tone is distinctly more corporate and performance-oriented than competitors like Nourish Care or Log My Care — reflecting Sona's positioning as a workforce technology platform that happens to serve care, rather than a care platform.",
+
+  "ai_positioning": "Core differentiator — AI is central to Sona's brand identity. The hero headline is 'AI for better workforce decisions.' The AI is personified as 'Raffy AI Assistant' with the promise to 'Make every manager your best manager.' Raffy handles demand forecasting, scheduling recommendations, and insights delivery. The AI is described as explaining decisions, reducing admin work, and enabling confident manager action. This is the most prominent AI positioning among all competitors analysed — Sona is betting its brand on AI as the primary value proposition. Backed by Google's AI-fund Gradient as an investor.",
+
+  "acquisition_strategy": "Growth-stage startup — no acquisitions identified. Funded with $27.5M Series A (May 2024) led by Felicis, with participation from Northzone, Google's Gradient, SpeedInvest, Antler, BAG Ventures. Total funding $40M+. Sona experienced 400%+ revenue growth in 2023. The company is expanding from its UK care sector base into hospitality, retail, and logistics, and eyeing US expansion. Sona is more likely to be an acquirer in future than an acquisition target, given its growth trajectory and VC backing.",
+
+  "market_segment_focus": "Multi-industry (not care-only): hospitality (restaurants, bars, leisure), hotels, care (social care, nursing), retail (multi-site operations), logistics. Within care, the focus is on large care providers with significant frontline workforces. Sona's 'frontline workforce' positioning means it competes with care-specific tools like PCS and Nourish only on the workforce management dimension — not on care planning or clinical recording.",
+
+  "trust_signal_type": "30+ recognisable enterprise logos displayed across multiple industries. Specific financial metrics from named organisations (Salutem Healthcare — $1.7M savings). Multi-industry presence (hospitality, care, retail) as a credibility signal. 100,000+ frontline workers using the platform. VC backing from Felicis and Google Gradient. No care-specific certifications (NHS Assured, Cyber Essentials, ISO 27001) were prominently displayed — a potential trust gap for care-sector buyers who expect these credentials.",
+
+  "content_marketing_approach": "Growing content investment: blog, publications (guides, reports, research), events (webinars, meetups, conferences), customer stories section, on-demand demo. The content is more business-outcome focused than care-sector educational — covering workforce management trends, AI applications, and operational efficiency rather than CQC compliance or care planning best practices. Less sector-specific depth than Log My Care or Nourish Care, reflecting the multi-industry positioning.",
+
+  "uncertain": ["trust_signal_type"]
+}

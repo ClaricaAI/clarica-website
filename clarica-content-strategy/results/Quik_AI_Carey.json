@@ -1,0 +1,30 @@
+{
+  "id": "B10",
+  "name": "Quik AI (Carey)",
+  "category": "competitors",
+  "description": "AI overlay on existing care software. 42% compliance jump across 12,007 audits. Closest to Clarica positioning.",
+
+  "headline_messaging": "Hero headline: \"Your existing systems. Upgraded.\" Full proposition: Carey adds capabilities to existing software without replacement, reducing manual work and improving efficiency with 'No disruption. Lower cost.' Positions as an AI add-on layer rather than a replacement system — directly analogous to Clarica's positioning as an AI agency that enhances rather than replaces.",
+
+  "pain_points_targeted": "Manual, time-consuming invoice processing and documentation, system fragmentation (data siloed across platforms), compliance and risk oversight gaps, repetitive documentation work, expensive wholesale system replacements ('no disruption, lower cost'), legacy system integration challenges. In care specifically: care plan review and audit inefficiency, CQC and organisational compliance gaps, trend and pattern blind spots in daily logs and incident reports.",
+
+  "cta_format": "Primary CTA: \"Get In Touch\" and \"Tell us how Carey can help you\" — prominent button links in header and throughout page. Secondary CTA: \"Book a Consultation\" anchor link. Also offers '50 hours free worth over £3,000' as a promotional entry point. Contact-first approach rather than self-serve demo.",
+
+  "social_proof_approach": "Client logos: Rose Care Group, Avante, St Luke's, Elmwood, Wavemill Healthcare. Certifications: AWS Bedrock, ISO 27001, Cyber Essentials, GDPR. Awards: 'Best AI-Driven' and 'Customer Award' badges displayed. Four detailed case studies with measurable outcomes. Key stat: compliance jump from 43% to 85% in 90 days across 12,007 real customer document audits (Jan–Nov 2025). Managers report saving ~5 hours personally per week; senior carers saving ~1 hour per day.",
+
+  "pricing_visibility": "Minimal/absent. No pricing tiers displayed on homepage. Promotional offer mentions '50 hours free worth over £3,000' which gives an implied hourly/value signal. Contact-based pricing model.",
+
+  "tone": "Professional, confident, results-focused. Emphasises pragmatism ('no disruption') and cost-efficiency. Slightly technical in some examples but maintains accessibility. Data-driven messaging with specific metrics. Positions as a practical, low-risk solution.",
+
+  "ai_positioning": "AI is the core product and central selling point. Carey is positioned as a 'connective layer' and 'AI add-on' that plugs into existing systems rather than replacing them. Described as a 'digital assistant' that handles analysis, automation, and data extraction. Founded by Paul Nery, managing director and founder of Rose Care Group — gives it care sector credibility. Strategic partnership with Log my Care to integrate Carey into their platform.",
+
+  "acquisition_strategy": "No acquisition activity. Quik AI is an independent company founded by Paul Nery (also MD and founder of Rose Care Group). Partnership-driven growth strategy — strategic partnership with Log my Care for integration. Not acquiring or being acquired currently.",
+
+  "market_segment_focus": "Multi-segment with care as primary vertical: healthcare/care providers (dominant — Rose Care Group, Avante, Wavemill, St Luke's), but also serves finance and procurement, mid-market corporates (multi-site operations), and HR/recruitment. Carey is designed as a horizontal AI tool with deep care sector application.",
+
+  "trust_signal_type": "ISO 27001 certification, Cyber Essentials accreditation, GDPR compliance, AWS Bedrock partnership, specific audit metrics published (12,007 audits), 'Best AI-Driven' award, 'Customer Award' badge, case study depth with named clients and measurable outcomes, founder's care sector background (Rose Care Group).",
+
+  "content_marketing_approach": "Case studies are the primary content asset — four detailed breakdowns with measurable outcomes. No visible blog or webinar section on the homepage. Use-case documentation focused. Content strategy appears lean and outcome-focused rather than educational. Featured in Caring Times and News By Wire press coverage. Partnership announcements with Log my Care generate earned media.",
+
+  "uncertain": ["pricing_visibility"]
+}
