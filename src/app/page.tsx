@@ -8,9 +8,9 @@ import {
   Check,
   ArrowUpRight,
   Clock,
-  ShieldCheck,
-  Timer,
-  ClipboardCheck,
+  Zap,
+  TrendingUp,
+  Users,
   Linkedin,
   Building2,
   Bot,
@@ -19,28 +19,32 @@ import {
 
 const outcomeCards = [
   {
+    icon: Zap,
+    stat: "4 weeks",
+    context: "from brief to live AI",
+    label: "Avg. build time",
+    isAccent: false,
+  },
+  {
+    icon: TrendingUp,
+    stat: "£100k+",
+    context: "in software costs saved",
+    label: "Year-one ROI",
+    isAccent: true,
+  },
+  {
+    icon: Users,
+    stat: "500+",
+    context: "professionals using our AI daily",
+    label: "Active users",
+    isAccent: false,
+  },
+  {
     icon: Clock,
-    stat: "30 mins",
-    context: "instead of 4 hours",
-    label: "Document review",
-  },
-  {
-    icon: ShieldCheck,
-    stat: "42%",
-    context: "improvement",
-    label: "Compliance scores",
-  },
-  {
-    icon: Timer,
     stat: "60 hrs",
     context: "saved per week",
-    label: "Across 12 sites",
-  },
-  {
-    icon: ClipboardCheck,
-    stat: "3 days",
-    context: "instead of 7",
-    label: "Process automation",
+    label: "Time freed",
+    isAccent: true,
   },
 ];
 
@@ -150,51 +154,59 @@ export default function HomePage() {
             {/* Right: Outcome Cards */}
             <div className="lg:col-span-6 hidden lg:block">
               <div
-                className="relative h-[500px] animate-fade-rise"
+                className="relative h-[560px] animate-fade-rise"
                 style={{ animationDelay: "0.8s" }}
               >
                 {outcomeCards.map((card, i) => {
                   const Icon = card.icon;
                   const positions = [
-                    "left-0 top-0",
-                    "right-0 top-[5%]",
-                    "left-[5%] bottom-[10%]",
-                    "right-[3%] bottom-[5%]",
+                    "left-0 top-[4%]",
+                    "right-0 top-[22%]",
+                    "left-[2%] bottom-[22%]",
+                    "right-0 bottom-[4%]",
                   ];
                   const floatClass = [
                     "mockup-float",
                     "mockup-float-delayed",
                     "mockup-float-slow",
-                    "mockup-float",
+                    "mockup-float-delayed",
                   ];
                   const widths = [
-                    "w-[280px]",
-                    "w-[260px]",
-                    "w-[270px]",
-                    "w-[250px]",
+                    "w-[258px]",
+                    "w-[252px]",
+                    "w-[252px]",
+                    "w-[258px]",
                   ];
 
                   return (
                     <div
                       key={card.label}
-                      className={`absolute ${positions[i]} ${floatClass[i]} ${widths[i]} outcome-card rounded-2xl p-6`}
+                      className={`absolute ${positions[i]} ${floatClass[i]} ${widths[i]} outcome-card rounded-2xl overflow-hidden`}
                     >
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 rounded-xl bg-primary-50 flex items-center justify-center shrink-0">
-                          <Icon className="w-5 h-5 text-primary-500" />
-                        </div>
-                        <div>
-                          <div className="flex items-baseline gap-2">
-                            <span className="text-2xl font-extrabold text-gray-900 tracking-tight">
-                              {card.stat}
-                            </span>
-                            <span className="text-[12px] text-gray-400">
-                              {card.context}
-                            </span>
+                      {/* Accent top bar */}
+                      <div
+                        className={`h-[3px] w-full ${card.isAccent ? "bg-warm-400" : "bg-primary-400"}`}
+                      />
+                      <div className="p-5">
+                        <div className="flex items-start justify-between gap-2 mb-4">
+                          <div
+                            className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${card.isAccent ? "bg-[#FEF3E0]" : "bg-primary-50"}`}
+                          >
+                            <Icon
+                              className={`w-[18px] h-[18px] ${card.isAccent ? "text-warm-500" : "text-primary-500"}`}
+                            />
                           </div>
-                          <span className="text-[13px] text-gray-500 mt-1 block">
+                          <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest text-right leading-tight">
                             {card.label}
                           </span>
+                        </div>
+                        <div>
+                          <span className="text-[2rem] font-extrabold text-gray-900 tracking-tight leading-none block">
+                            {card.stat}
+                          </span>
+                          <p className="text-[12px] text-gray-500 mt-1.5 leading-snug">
+                            {card.context}
+                          </p>
                         </div>
                       </div>
                     </div>
