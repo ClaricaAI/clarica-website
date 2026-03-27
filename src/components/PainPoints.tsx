@@ -13,12 +13,12 @@ import {
 const pains = [
   {
     icon: FileText,
-    pain: "\"I spend more time on paperwork than with my residents.\"",
+    pain: "\"I spend more time on admin than on the work that actually matters.\"",
     fix: "AI drafts documentation. You approve it.",
   },
   {
     icon: ShieldAlert,
-    pain: "\"Something always falls through the cracks before CQC comes.\"",
+    pain: "\"Something always slips through before a compliance review.\"",
     fix: "Continuous monitoring flags gaps before they become violations.",
   },
   {
@@ -96,11 +96,12 @@ export default function PainPoints() {
           className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-4 text-[14px] text-gray-500"
         >
           <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-[12px] font-semibold text-gray-700 shrink-0">
-            DHSC 2025
+            McKinsey 2025
           </span>
           <p>
-            73% of care providers say set-up costs stop them adopting technology.
-            27% still use no care tech at all.
+            Over 90% of businesses are considering AI to improve their
+            competitive position &mdash; but most don&apos;t know where to
+            start.
           </p>
         </motion.div>
       </div>

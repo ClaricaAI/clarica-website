@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Star } from "lucide-react";
 
 const stats = [
-  { value: 500, suffix: "+", label: "Users across care homes", hasStars: true },
+  { value: 500, suffix: "+", label: "Users across client sites", hasStars: true },
   { value: 100, prefix: "\u00a3", suffix: "k+", label: "Saved in software costs", hasStars: true },
   { value: 60, suffix: "hrs", label: "Saved per week", hasStars: true },
 ];
@@ -101,14 +101,14 @@ export default function SocialProofBar() {
           <div className="flex flex-col items-center gap-2 px-6 md:px-10">
             <div className="px-3 py-1 bg-primary-50 rounded-full">
               <span className="text-[11px] font-semibold text-primary-500 uppercase tracking-wider">
-                Paper to Digital
+                Trusted
               </span>
             </div>
             <span className="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight">
               12
             </span>
             <span className="text-[12px] md:text-[13px] text-gray-500 text-center">
-              Care homes transformed
+              Businesses across the UK
             </span>
           </div>
         </div>

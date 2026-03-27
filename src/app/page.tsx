@@ -22,7 +22,7 @@ const outcomeCards = [
     icon: Clock,
     stat: "30 mins",
     context: "instead of 4 hours",
-    label: "Care plan reviews",
+    label: "Document review",
   },
   {
     icon: ShieldCheck,
@@ -34,45 +34,44 @@ const outcomeCards = [
     icon: Timer,
     stat: "60 hrs",
     context: "saved per week",
-    label: "Across 12 homes",
+    label: "Across 12 sites",
   },
   {
     icon: ClipboardCheck,
     stat: "3 days",
     context: "instead of 7",
-    label: "New care plans",
+    label: "Process automation",
   },
 ];
 
 const portfolioCards = [
   {
     icon: Building2,
-    title: "Quality & governance across 12 care homes",
+    title: "Quality & governance across 12 sites",
     desc: "Replaced a fragmented manual system with a single platform. 500 users, 350 active weekly. Quality monitoring, incident tracking, and regulatory reporting \u2014 all in one place.",
     outcome: "Saved the organisation an estimated \u00a3100,000 in outsourced software costs",
   },
   {
     icon: Bot,
     title: "AI assistant inside Microsoft Teams",
-    desc: "Care staff ask questions about policies, procedures, and guidance \u2014 and get instant, accurate answers. No searching through folders, no waiting for a manager.",
+    desc: "Staff ask questions about policies, procedures, and guidance \u2014 and get instant, accurate answers. No searching through folders, no waiting for a manager.",
     outcome: "Instant access to organisational knowledge for every team member, every shift",
   },
   {
     icon: BarChart3,
     title: "Automated reporting and compliance tracking",
     desc: "AI drafts reports, flags overdue assessments, and monitors compliance across all locations. Managers review and approve \u2014 the admin is done for them.",
-    outcome: "60 hours saved per week across 12 homes",
+    outcome: "60 hours saved per week across 12 sites",
   },
 ];
 
 const founderHighlights = [
-  "Works in quality and governance across 12 care homes every day",
-  "Built and deployed a governance platform to 500 users across 12 care homes",
-  "Saved an organisation an estimated \u00a3100,000 in outsourced software costs",
-  "Built an AI assistant inside Microsoft Teams for frontline care staff",
+  "Built and deployed AI systems used by 500+ professionals daily",
+  "Saved a business an estimated \u00a3100,000 in outsourced software costs",
+  "Built an AI assistant inside Microsoft Teams for frontline staff",
   "Led a team of 6 developers on an NHS-partnered project predicting falls",
   "27 professional certifications across Anthropic and Microsoft",
-  "6,500+ LinkedIn followers in AI and social care",
+  "6,500+ LinkedIn followers in AI and business",
 ];
 
 export default function HomePage() {
@@ -97,7 +96,7 @@ export default function HomePage() {
                 style={{ animationDelay: "0.1s" }}
               >
                 <span className="text-[13px] font-semibold text-primary-500 uppercase tracking-wider">
-                  AI for Social Care
+                  AI for Business
                 </span>
               </div>
               <div
@@ -105,8 +104,8 @@ export default function HomePage() {
                 style={{ animationDelay: "0.2s" }}
               >
                 <h1 className="text-4xl md:text-[3.5rem] font-extrabold text-gray-900 leading-[1.1] tracking-tight">
-                  AI systems built for how your care teams{" "}
-                  <span className="text-primary-400">actually work</span>
+                  AI systems built for how your business{" "}
+                  <span className="text-primary-400">actually works</span>
                 </h1>
               </div>
               <div
@@ -115,8 +114,7 @@ export default function HomePage() {
               >
                 <p className="text-lg md:text-xl text-gray-500 max-w-[50ch] leading-relaxed">
                   We audit your operations, build bespoke AI tools, and train
-                  your team to use them. For care organisations ready to work
-                  smarter.
+                  your team to use them.
                 </p>
               </div>
               <div
@@ -124,10 +122,9 @@ export default function HomePage() {
                 style={{ animationDelay: "0.5s" }}
               >
                 <p className="text-[14px] text-gray-400 max-w-[50ch] leading-relaxed">
-                  Digital records already save care workers 20 minutes every
-                  shift.{" "}
+                  90% of businesses are considering AI.{" "}
                   <span className="text-primary-500 font-medium">
-                    AI takes that further.
+                    We make it happen.
                   </span>
                 </p>
               </div>
@@ -247,10 +244,10 @@ export default function HomePage() {
           <div className="max-w-[1400px] mx-auto">
             <div className="mb-16">
               <span className="text-[13px] font-semibold text-primary-400 uppercase tracking-wider block mb-4">
-                Built for a multi-site care group
+                Built for a multi-site business
               </span>
               <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight tracking-tight max-w-[20ch]">
-                Real systems, running in real care homes
+                Real systems, running in real businesses
               </h2>
             </div>
 
@@ -320,8 +317,8 @@ export default function HomePage() {
               {/* About Card */}
               <div className="md:col-span-7 border border-gray-200 rounded-2xl p-10 md:p-14 space-y-6">
                 <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-[1.15] tracking-tight">
-                  We help care organisations understand what AI can do for them,
-                  build it, and make it stick.
+                  We help businesses understand what AI can do for them, build
+                  it, and make it stick.
                 </h2>
                 <div className="space-y-5 text-gray-500 text-[15px] leading-relaxed">
                   <p>
@@ -330,10 +327,9 @@ export default function HomePage() {
                     to use them confidently and safely.
                   </p>
                   <p>
-                    We work with residential care, domiciliary care, and
-                    supported living providers across the UK. Every system we
-                    build is designed around your workflows &mdash; not the other
-                    way around.
+                    We work with businesses across the UK. Every system we build
+                    is designed around your workflows &mdash; not the other way
+                    around.
                   </p>
                 </div>
               </div>
@@ -376,7 +372,7 @@ export default function HomePage() {
 
                 <p className="text-gray-900 font-semibold text-[15px] pt-2">
                   Lewis isn&apos;t pitching theory. He&apos;s built real systems
-                  that run in real care homes &mdash; and he works in one.
+                  that run in real businesses.
                 </p>
               </div>
             </div>
@@ -400,7 +396,7 @@ export default function HomePage() {
               {/* Left: Heading */}
               <div className="lg:col-span-5 flex flex-col gap-8">
                 <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-[1.1] tracking-tight">
-                  Let&apos;s find out what AI can do for your care organisation
+                  Let&apos;s find out what AI can do for your business.
                 </h2>
                 <div className="space-y-5">
                   <p className="text-white/50 text-[15px] leading-relaxed">

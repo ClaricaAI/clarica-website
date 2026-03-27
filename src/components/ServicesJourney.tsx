@@ -9,7 +9,7 @@ const phases = [
     id: "audit",
     step: "01",
     label: "Audit",
-    title: "We learn how your organisation runs",
+    title: "We learn how your business runs",
     description:
       "We map every workflow, every bottleneck, every hour lost. You get a clear picture of where AI saves the most time \u2014 and what\u2019s not worth touching.",
     highlights: [
@@ -24,7 +24,7 @@ const phases = [
     visual: {
       stat: "30M",
       statLabel:
-        "admin hours saved across UK care through digital tools. AI is the next step.",
+        "admin hours lost to manual processes in UK businesses annually. AI is the next step.",
       source: "GOV.UK, December 2025",
     },
   },
@@ -47,7 +47,7 @@ const phases = [
     visual: {
       stat: "45%",
       statLabel:
-        "more spent on social care since 2017. Output rose just 5%. Smarter processes are the answer.",
+        "more time spent on admin since 2017. Output barely moved. Smarter processes are the answer.",
       source: "The Productivity Institute, 2025",
     },
   },
@@ -57,9 +57,9 @@ const phases = [
     label: "Train",
     title: "Your team confident, not confused",
     description:
-      "Practical training built for care teams. Not generic AI literacy \u2014 specific to the tools we\u2019ve built and the workflows you use every day. Managers and frontline staff.",
+      "Practical training built for your team. Not generic AI literacy \u2014 specific to the tools we\u2019ve built and the workflows you use every day. Managers and frontline staff.",
     highlights: [
-      "Tailored to your care workflows",
+      "Tailored to your workflows",
       "Managers and frontline staff",
       "Safe, responsible AI use",
       "The technology sticks long after we leave",
@@ -70,8 +70,8 @@ const phases = [
     visual: {
       stat: "83%",
       statLabel:
-        "of social workers say AI reduces admin. Only 47% feel confident using it. We close that gap.",
-      source: "Research in Practice, 2026",
+        "of employees say AI reduces admin. Only 47% feel confident using it. We close that gap.",
+      source: "MIT Sloan, 2026",
     },
   },
 ];
@@ -268,8 +268,8 @@ export default function ServicesJourney() {
             </h3>
             <div className="md:col-span-5 flex flex-col justify-end">
               <p className="text-gray-500 text-[14px] leading-relaxed mb-5">
-                AI is ready for social care right now. Not in five years. Not as
-                a gimmick. Real, practical AI that saves real time today.
+                AI is ready for business right now. Not in five years. Not as a
+                gimmick. Real, practical AI that saves real time today.
               </p>
               <a
                 className="text-primary-500 font-semibold text-[14px] hover:text-primary-400 transition-colors"
