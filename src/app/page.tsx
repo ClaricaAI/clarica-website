@@ -16,6 +16,7 @@ import {
   Bot,
   BarChart3,
 } from "lucide-react";
+import CalBooking from "@/components/CalBooking";
 
 const outcomeCards = [
   {
@@ -432,29 +433,8 @@ export default function HomePage() {
 
               {/* Right: Cal.com Embed */}
               <div className="lg:col-span-7">
-                <div className="glass-card-dark rounded-2xl p-8 md:p-10">
-                  <div className="text-center py-12">
-                    <div className="w-16 h-16 bg-primary-400/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <ArrowUpRight className="w-8 h-8 text-primary-400" />
-                    </div>
-                    <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
-                      Book your free AI audit
-                    </h3>
-                    <p className="text-white/50 text-[15px] mb-8 max-w-[40ch] mx-auto">
-                      Pick a time that works for you. We&apos;ll have an honest
-                      conversation about where AI fits in your organisation.
-                    </p>
-                    {/* Cal.com embed placeholder — replace data-cal-link with your actual link */}
-                    <a
-                      href="https://cal.com/lewisrushton"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-8 py-4 text-[15px] font-semibold bg-primary-400 text-white rounded-xl hover:bg-primary-500 transition-all active:scale-[0.98] shadow-lg shadow-primary-400/20"
-                    >
-                      Book a Time
-                      <ArrowUpRight className="w-4 h-4" />
-                    </a>
-                  </div>
+                <div className="glass-card-dark rounded-2xl overflow-hidden">
+                  <CalBooking />
                 </div>
               </div>
             </div>
