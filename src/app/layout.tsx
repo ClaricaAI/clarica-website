@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Clarica | AI Agency for Social Care",
+  title: "Clarica | AI Agency for Business",
   description:
-    "We help care organisations find where AI saves the most time, build bespoke systems, and train teams to use them confidently.",
+    "We audit your operations, build bespoke AI systems, and train your team to use them. AI built for how your business actually works.",
 };
 
 export const viewport: Viewport = {

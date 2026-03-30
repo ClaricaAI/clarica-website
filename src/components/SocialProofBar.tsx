@@ -57,7 +57,7 @@ function StatItem({ stat, visible }: { stat: (typeof stats)[0]; visible: boolean
         {count}
         {stat.suffix || ""}
       </span>
-      <span className="text-[12px] md:text-[13px] text-gray-500 text-center">
+      <span className="text-[12px] md:text-[13px] text-gray-600 text-center">
         {stat.label}
       </span>
     </div>
@@ -87,7 +87,7 @@ export default function SocialProofBar() {
   return (
     <div
       ref={ref}
-      className="relative z-10 py-10 md:py-14"
+      className="relative z-10 py-8 md:py-10"
     >
       <div className="max-w-[1400px] mx-auto px-8 md:px-12">
         <div
@@ -107,7 +107,7 @@ export default function SocialProofBar() {
             <span className="text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight">
               12
             </span>
-            <span className="text-[12px] md:text-[13px] text-gray-500 text-center">
+            <span className="text-[12px] md:text-[13px] text-gray-600 text-center">
               Businesses across the UK
             </span>
           </div>

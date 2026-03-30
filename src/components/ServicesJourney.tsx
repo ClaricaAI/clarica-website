@@ -84,11 +84,11 @@ export default function ServicesJourney() {
   return (
     <section
       id="services"
-      className="relative z-10 py-24 md:py-32 px-8 md:px-12"
+      className="relative z-10 py-16 md:py-24 px-8 md:px-12"
     >
       <div className="max-w-[1400px] mx-auto">
         {/* Section Header */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-14">
           <div className="md:col-span-7">
             <span className="text-[13px] font-semibold text-primary-400 uppercase tracking-wider block mb-4">
               How we work together
@@ -98,7 +98,7 @@ export default function ServicesJourney() {
             </h2>
           </div>
           <div className="md:col-span-5 flex items-end">
-            <p className="text-base text-gray-500 leading-relaxed max-w-[50ch]">
+            <p className="text-base text-gray-600 leading-relaxed max-w-[50ch]">
               We start by understanding your organisation. Then we build what
               you actually need. Then we make sure your team can use it.
             </p>
@@ -190,7 +190,7 @@ export default function ServicesJourney() {
                   {phase.title}
                 </h3>
 
-                <p className="text-gray-500 text-[15px] leading-relaxed mb-8 max-w-[55ch]">
+                <p className="text-gray-600 text-[15px] leading-relaxed mb-8 max-w-[55ch]">
                   {phase.description}
                 </p>
 
@@ -258,16 +258,16 @@ export default function ServicesJourney() {
         </AnimatePresence>
 
         {/* Trust Signal */}
-        <div className="mt-16 border border-gray-200 bg-white/60 backdrop-blur-sm rounded-2xl p-10 md:p-14">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
+        <div className="mt-12 border border-gray-200 bg-white/60 backdrop-blur-sm rounded-2xl p-8 md:p-10">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
             <h3 className="md:col-span-7 text-xl md:text-2xl font-bold text-gray-900 leading-snug tracking-tight">
               Other consultants give you a report and leave.{" "}
-              <span className="text-gray-400">
+              <span className="text-gray-500">
                 We build the actual systems and train your team to use them.
               </span>
             </h3>
             <div className="md:col-span-5 flex flex-col justify-end">
-              <p className="text-gray-500 text-[14px] leading-relaxed mb-5">
+              <p className="text-gray-600 text-[14px] leading-relaxed mb-5">
                 AI is ready for business right now. Not in five years. Not as a
                 gimmick. Real, practical AI that saves real time today.
               </p>

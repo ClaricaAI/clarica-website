@@ -45,14 +45,14 @@ const pains = [
 
 export default function PainPoints() {
   return (
-    <section className="relative z-10 py-24 md:py-32 px-8 md:px-12">
+    <section className="relative z-10 py-16 md:py-24 px-8 md:px-12">
       <div className="max-w-[1400px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="mb-16"
+          className="mb-10"
         >
           <span className="text-[13px] font-semibold text-primary-400 uppercase tracking-wider block mb-4">
             Sound familiar?
@@ -80,7 +80,7 @@ export default function PainPoints() {
                 <p className="text-[15px] text-gray-900 font-semibold leading-snug italic">
                   {item.pain}
                 </p>
-                <p className="text-[14px] text-gray-500 leading-relaxed mt-auto">
+                <p className="text-[14px] text-gray-600 leading-relaxed mt-auto">
                   {item.fix}
                 </p>
               </motion.div>

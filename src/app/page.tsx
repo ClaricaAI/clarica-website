@@ -7,47 +7,12 @@ import ServicesJourney from "@/components/ServicesJourney";
 import {
   Check,
   ArrowUpRight,
-  Clock,
-  Zap,
-  TrendingUp,
-  Users,
   Linkedin,
   Building2,
   Bot,
   BarChart3,
 } from "lucide-react";
 import CalBooking from "@/components/CalBooking";
-
-const outcomeCards = [
-  {
-    icon: Zap,
-    stat: "4 weeks",
-    context: "from brief to live AI",
-    label: "Avg. build time",
-    isAccent: false,
-  },
-  {
-    icon: TrendingUp,
-    stat: "£100k+",
-    context: "in software costs saved",
-    label: "Year-one ROI",
-    isAccent: true,
-  },
-  {
-    icon: Users,
-    stat: "500+",
-    context: "professionals using our AI daily",
-    label: "Active users",
-    isAccent: false,
-  },
-  {
-    icon: Clock,
-    stat: "60 hrs",
-    context: "saved per week",
-    label: "Time freed",
-    isAccent: true,
-  },
-];
 
 const portfolioCards = [
   {
@@ -90,130 +55,52 @@ export default function HomePage() {
       {/* ===================== HERO ===================== */}
       <section
         id="home"
-        className="relative min-h-[100dvh] w-full overflow-hidden"
+        className="relative min-h-[100dvh] w-full overflow-hidden flex items-center"
       >
-        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 pt-40 pb-24 md:pb-32">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Left: Text Content */}
-            <div className="lg:col-span-6 space-y-8">
-              <div
-                className="animate-fade-rise"
-                style={{ animationDelay: "0.1s" }}
-              >
-                <span className="text-[13px] font-semibold text-primary-500 uppercase tracking-wider">
-                  AI for Business
-                </span>
-              </div>
-              <div
-                className="animate-fade-rise"
-                style={{ animationDelay: "0.2s" }}
-              >
-                <h1 className="text-4xl md:text-[3.5rem] font-extrabold text-gray-900 leading-[1.1] tracking-tight">
-                  AI systems built for how your business{" "}
-                  <span className="text-primary-400">actually works</span>
-                </h1>
-              </div>
-              <div
-                className="animate-fade-rise"
-                style={{ animationDelay: "0.4s" }}
-              >
-                <p className="text-lg md:text-xl text-gray-500 max-w-[50ch] leading-relaxed">
-                  We audit your operations, build bespoke AI tools, and train
-                  your team to use them.
-                </p>
-              </div>
-              <div
-                className="animate-fade-rise"
-                style={{ animationDelay: "0.5s" }}
-              >
-                <p className="text-[14px] text-gray-400 max-w-[50ch] leading-relaxed">
-                  90% of businesses are considering AI.{" "}
-                  <span className="text-primary-500 font-medium">
-                    We make it happen.
-                  </span>
-                </p>
-              </div>
-              <div
-                className="animate-fade-rise pt-4 flex flex-col sm:flex-row items-start gap-4"
-                style={{ animationDelay: "0.6s" }}
-              >
-                <a
-                  href="#contact"
-                  className="px-8 py-4 text-[15px] font-semibold bg-primary-400 text-white rounded-lg hover:bg-primary-500 transition-all active:scale-95 shadow-lg shadow-primary-400/20"
-                >
-                  Book a Free AI Audit
-                </a>
-                <a
-                  href="#services"
-                  className="px-8 py-4 text-[15px] font-semibold text-gray-700 border border-gray-200 rounded-lg hover:bg-gray-50 transition-all"
-                >
-                  See How We Work
-                </a>
-              </div>
+        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 pt-32 pb-20">
+          <div className="max-w-[720px] space-y-6">
+            <div
+              className="animate-fade-rise"
+              style={{ animationDelay: "0.1s" }}
+            >
+              <span className="text-[13px] font-semibold text-primary-500 uppercase tracking-wider">
+                AI Agency
+              </span>
             </div>
-
-            {/* Right: Outcome Cards */}
-            <div className="lg:col-span-6 hidden lg:block">
-              <div
-                className="relative h-[560px] animate-fade-rise"
-                style={{ animationDelay: "0.8s" }}
+            <div
+              className="animate-fade-rise"
+              style={{ animationDelay: "0.2s" }}
+            >
+              <h1 className="text-4xl md:text-[3.75rem] font-extrabold text-gray-900 leading-[1.08] tracking-tight">
+                We build AI systems for how your business{" "}
+                <span className="text-primary-400">actually works</span>
+              </h1>
+            </div>
+            <div
+              className="animate-fade-rise"
+              style={{ animationDelay: "0.4s" }}
+            >
+              <p className="text-lg md:text-xl text-gray-700 max-w-[52ch] leading-relaxed">
+                Clarica audits your operations, builds bespoke AI tools, and
+                trains your team to use them confidently.
+              </p>
+            </div>
+            <div
+              className="animate-fade-rise pt-2 flex flex-col sm:flex-row items-start gap-4"
+              style={{ animationDelay: "0.5s" }}
+            >
+              <a
+                href="#contact"
+                className="px-8 py-4 text-[15px] font-semibold bg-primary-400 text-white rounded-lg hover:bg-primary-500 transition-all active:scale-95 shadow-lg shadow-primary-400/20"
               >
-                {outcomeCards.map((card, i) => {
-                  const Icon = card.icon;
-                  const positions = [
-                    "left-0 top-[4%]",
-                    "right-0 top-[22%]",
-                    "left-[2%] bottom-[22%]",
-                    "right-0 bottom-[4%]",
-                  ];
-                  const floatClass = [
-                    "mockup-float",
-                    "mockup-float-delayed",
-                    "mockup-float-slow",
-                    "mockup-float-delayed",
-                  ];
-                  const widths = [
-                    "w-[258px]",
-                    "w-[252px]",
-                    "w-[252px]",
-                    "w-[258px]",
-                  ];
-
-                  return (
-                    <div
-                      key={card.label}
-                      className={`absolute ${positions[i]} ${floatClass[i]} ${widths[i]} outcome-card rounded-2xl overflow-hidden`}
-                    >
-                      {/* Accent top bar */}
-                      <div
-                        className={`h-[3px] w-full ${card.isAccent ? "bg-warm-400" : "bg-primary-400"}`}
-                      />
-                      <div className="p-5">
-                        <div className="flex items-start justify-between gap-2 mb-4">
-                          <div
-                            className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${card.isAccent ? "bg-[#FEF3E0]" : "bg-primary-50"}`}
-                          >
-                            <Icon
-                              className={`w-[18px] h-[18px] ${card.isAccent ? "text-warm-500" : "text-primary-500"}`}
-                            />
-                          </div>
-                          <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest text-right leading-tight">
-                            {card.label}
-                          </span>
-                        </div>
-                        <div>
-                          <span className="text-[2rem] font-extrabold text-gray-900 tracking-tight leading-none block">
-                            {card.stat}
-                          </span>
-                          <p className="text-[12px] text-gray-500 mt-1.5 leading-snug">
-                            {card.context}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
+                Book a Free AI Audit
+              </a>
+              <a
+                href="#services"
+                className="px-8 py-4 text-[15px] font-semibold text-gray-700 border border-gray-300 rounded-lg hover:bg-white/60 transition-all"
+              >
+                See How We Work
+              </a>
             </div>
           </div>
         </div>
@@ -252,19 +139,19 @@ export default function HomePage() {
       >
         <section
           id="portfolio"
-          className="relative z-10 py-24 md:py-32 px-8 md:px-12"
+          className="relative z-10 py-16 md:py-24 px-8 md:px-12"
         >
           <div className="max-w-[1400px] mx-auto">
-            <div className="mb-16">
+            <div className="mb-10">
               <span className="text-[13px] font-semibold text-primary-400 uppercase tracking-wider block mb-4">
-                Built for a multi-site business
+                Built for real businesses
               </span>
               <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight tracking-tight max-w-[20ch]">
                 Real systems, running in real businesses
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-12">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-8">
               {portfolioCards.map((card, i) => {
                 const CardIcon = card.icon;
                 return (
@@ -274,18 +161,18 @@ export default function HomePage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.1 }}
-                    className="border border-gray-200 rounded-2xl p-8 md:p-10 flex flex-col gap-5"
+                    className="border border-gray-200 rounded-2xl p-7 md:p-8 flex flex-col gap-4"
                   >
-                    <div className="w-12 h-12 bg-primary-50 rounded-xl flex items-center justify-center">
-                      <CardIcon className="w-6 h-6 text-primary-500" />
+                    <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center">
+                      <CardIcon className="w-5 h-5 text-primary-500" />
                     </div>
-                    <h3 className="text-lg md:text-xl font-bold text-gray-900 leading-snug">
+                    <h3 className="text-lg font-bold text-gray-900 leading-snug">
                       {card.title}
                     </h3>
-                    <p className="text-gray-500 text-[14px] leading-relaxed flex-1">
+                    <p className="text-gray-600 text-[14px] leading-relaxed flex-1">
                       {card.desc}
                     </p>
-                    <div className="pt-4 border-t border-gray-100">
+                    <div className="pt-3 border-t border-gray-100">
                       <p className="text-[13px] font-semibold text-primary-500">
                         {card.outcome}
                       </p>
@@ -317,10 +204,10 @@ export default function HomePage() {
       >
         <section
           id="about"
-          className="relative z-10 py-24 md:py-32 px-8 md:px-12"
+          className="relative z-10 py-16 md:py-24 px-8 md:px-12"
         >
           <div className="max-w-[1400px] mx-auto">
-            <div className="mb-12">
+            <div className="mb-8">
               <span className="text-[13px] font-semibold text-primary-400 uppercase tracking-wider block mb-4">
                 About Clarica
               </span>
@@ -328,12 +215,12 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
               {/* About Card */}
-              <div className="md:col-span-7 border border-gray-200 rounded-2xl p-10 md:p-14 space-y-6">
-                <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-[1.15] tracking-tight">
+              <div className="md:col-span-7 border border-gray-200 rounded-2xl p-8 md:p-10 space-y-5">
+                <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 leading-[1.15] tracking-tight">
                   We help businesses understand what AI can do for them, build
                   it, and make it stick.
                 </h2>
-                <div className="space-y-5 text-gray-500 text-[15px] leading-relaxed">
+                <div className="space-y-4 text-gray-600 text-[15px] leading-relaxed">
                   <p>
                     Clarica audits your operations, builds bespoke AI systems
                     that fit how your teams actually work, and trains your people
@@ -348,7 +235,7 @@ export default function HomePage() {
               </div>
 
               {/* Founder Card */}
-              <div className="md:col-span-5 border border-gray-200 rounded-2xl p-10 md:p-14 space-y-6">
+              <div className="md:col-span-5 border border-gray-200 rounded-2xl p-8 md:p-10 space-y-5">
                 <div className="flex items-center justify-between">
                   <div>
                     <span className="text-[13px] font-semibold text-gray-400 uppercase tracking-wider block mb-1">
@@ -376,7 +263,7 @@ export default function HomePage() {
                       <div className="w-5 h-5 rounded-full bg-primary-50 flex items-center justify-center mt-0.5 shrink-0">
                         <Check className="w-3 h-3 text-primary-500" />
                       </div>
-                      <span className="text-[14px] text-gray-500 leading-relaxed">
+                      <span className="text-[14px] text-gray-600 leading-relaxed">
                         {item}
                       </span>
                     </li>
@@ -402,7 +289,7 @@ export default function HomePage() {
       >
         <section
           id="contact"
-          className="relative z-10 py-24 md:py-32 px-8 md:px-12 bg-gray-900"
+          className="relative z-10 py-16 md:py-24 px-8 md:px-12 bg-gray-900"
         >
           <div className="max-w-[1400px] mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
