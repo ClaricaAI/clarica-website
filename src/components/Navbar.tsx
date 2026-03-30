@@ -1,24 +1,37 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import Link from "next/link";
 import { Menu, X, Linkedin } from "lucide-react";
 
-const links = [
-  { href: "#home", label: "Home" },
-  { href: "#services", label: "Services" },
-  { href: "#portfolio", label: "Portfolio" },
-  { href: "#about", label: "About" },
-  { href: "#contact", label: "Contact" },
+const sectionLinks = [
+  { href: "/#home", anchor: "#home", label: "Home" },
+  { href: "/#services", anchor: "#services", label: "Services" },
+  { href: "/#portfolio", anchor: "#portfolio", label: "Portfolio" },
+  { href: "/#about", anchor: "#about", label: "About" },
+  { href: "/#contact", anchor: "#contact", label: "Contact" },
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const isBlog = pathname.startsWith("/blog");
+
   const [active, setActive] = useState("#home");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const sections = links.map(
-      (l) => document.querySelector(l.href) as HTMLElement | null,
+    if (!isHome) {
+      setScrolled(true);
+      const onScroll = () => setMenuOpen(false);
+      window.addEventListener("scroll", onScroll, { passive: true });
+      return () => window.removeEventListener("scroll", onScroll);
+    }
+
+    const sections = sectionLinks.map(
+      (l) => document.querySelector(l.anchor) as HTMLElement | null,
     );
 
     const onScroll = () => {
@@ -29,7 +42,7 @@ export default function Navbar() {
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
         if (section && section.offsetTop <= scrollY) {
-          setActive(links[i].href);
+          setActive(sectionLinks[i].anchor);
           break;
         }
       }
@@ -38,7 +51,7 @@ export default function Navbar() {
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
     return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  }, [isHome]);
 
   return (
     <nav
@@ -49,20 +62,20 @@ export default function Navbar() {
       }`}
     >
       <div className="flex justify-between items-center px-8 md:px-12 py-5 max-w-[1400px] mx-auto">
-        <a href="#home" className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5">
           <img src="/clarica-logo.png" alt="Clarica" className="w-8 h-8" />
           <span className="text-xl font-bold text-gray-900 tracking-tight">
             Clarica
           </span>
-        </a>
+        </Link>
 
         <div className="hidden md:flex items-center space-x-10 text-[13px] font-medium">
-          {links.map((link) => (
+          {sectionLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
               className={
-                active === link.href
+                isHome && active === link.anchor
                   ? "text-primary-500 transition-colors duration-300"
                   : "text-gray-500 hover:text-gray-900 transition-colors duration-300"
               }
@@ -70,6 +83,16 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <Link
+            href="/blog"
+            className={
+              isBlog
+                ? "text-primary-500 transition-colors duration-300"
+                : "text-gray-500 hover:text-gray-900 transition-colors duration-300"
+            }
+          >
+            Blog
+          </Link>
         </div>
 
         <div className="hidden md:flex items-center gap-4">
@@ -83,7 +106,7 @@ export default function Navbar() {
             <Linkedin className="w-4.5 h-4.5" />
           </a>
           <a
-            href="#contact"
+            href="/#contact"
             className="px-6 py-2.5 text-[13px] font-semibold bg-primary-400 text-white rounded-lg hover:bg-primary-500 transition-all active:scale-95"
           >
             Book Free Audit
@@ -110,13 +133,13 @@ export default function Navbar() {
         }`}
       >
         <div className="bg-white/95 backdrop-blur-xl border-t border-gray-200 px-8 py-6 space-y-1">
-          {links.map((link) => (
+          {sectionLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
               onClick={() => setMenuOpen(false)}
               className={`block text-[15px] font-medium transition-colors py-3 ${
-                active === link.href
+                isHome && active === link.anchor
                   ? "text-primary-500"
                   : "text-gray-700 hover:text-primary-500"
               }`}
@@ -124,8 +147,19 @@ export default function Navbar() {
               {link.label}
             </a>
           ))}
+          <Link
+            href="/blog"
+            onClick={() => setMenuOpen(false)}
+            className={`block text-[15px] font-medium transition-colors py-3 ${
+              isBlog
+                ? "text-primary-500"
+                : "text-gray-700 hover:text-primary-500"
+            }`}
+          >
+            Blog
+          </Link>
           <a
-            href="#contact"
+            href="/#contact"
             onClick={() => setMenuOpen(false)}
             className="block w-full text-center px-6 py-3 text-[14px] font-semibold bg-primary-400 text-white rounded-lg hover:bg-primary-500 transition-all mt-4"
           >

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Linkedin } from "lucide-react";
 
 export default function Footer() {
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-8 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2.5">
+          <Link href="/" className="flex items-center gap-2.5">
             <img
               src="/clarica-logo.png"
               alt="Clarica"
@@ -15,40 +16,46 @@ export default function Footer() {
             <span className="text-lg font-bold text-white tracking-tight">
               Clarica
             </span>
-          </a>
+          </Link>
 
           {/* Nav Links */}
           <div className="flex items-center gap-8 text-[13px]">
             <a
               className="text-white/40 hover:text-white transition-colors"
-              href="#home"
+              href="/#home"
             >
               Home
             </a>
             <a
               className="text-white/40 hover:text-white transition-colors"
-              href="#services"
+              href="/#services"
             >
               Services
             </a>
             <a
               className="text-white/40 hover:text-white transition-colors"
-              href="#portfolio"
+              href="/#portfolio"
             >
               Portfolio
             </a>
             <a
               className="text-white/40 hover:text-white transition-colors"
-              href="#about"
+              href="/#about"
             >
               About
             </a>
             <a
               className="text-white/40 hover:text-white transition-colors"
-              href="#contact"
+              href="/#contact"
             >
               Contact
             </a>
+            <Link
+              className="text-white/40 hover:text-white transition-colors"
+              href="/blog"
+            >
+              Blog
+            </Link>
             <a
               href="https://www.linkedin.com/in/lewisrushton2004"
               target="_blank"
