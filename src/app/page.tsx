@@ -55,9 +55,9 @@ export default function HomePage() {
       {/* ===================== HERO ===================== */}
       <section
         id="home"
-        className="relative min-h-[100dvh] w-full overflow-hidden flex flex-col justify-center"
+        className="relative min-h-[100dvh] w-full overflow-hidden flex flex-col justify-end"
       >
-        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 pt-28 pb-8 md:pb-12">
+        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 mb-10 md:mb-14">
           <div className="max-w-[720px] space-y-6">
             <div
               className="animate-fade-rise"
@@ -105,8 +105,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Trust signals — inside hero viewport */}
-        <div className="relative z-10 mt-auto pb-10 md:pb-14">
+        <div className="relative z-10 pb-10 md:pb-14">
           <SocialProofBar />
         </div>
       </section>
