@@ -80,7 +80,7 @@ export default function PainPoints() {
                 <p className="text-[15px] text-gray-900 font-semibold leading-snug italic">
                   {item.pain}
                 </p>
-                <p className="text-[14px] text-gray-600 leading-relaxed mt-auto">
+                <p className="text-[15px] text-gray-600 leading-relaxed mt-auto">
                   {item.fix}
                 </p>
               </motion.div>

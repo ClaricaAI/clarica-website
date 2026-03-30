@@ -167,14 +167,14 @@ export default function HomePage() {
                     <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center">
                       <CardIcon className="w-5 h-5 text-primary-500" />
                     </div>
-                    <h3 className="text-lg font-bold text-gray-900 leading-snug">
+                    <h3 className="text-xl font-extrabold text-gray-900 leading-snug">
                       {card.title}
                     </h3>
-                    <p className="text-gray-600 text-[14px] leading-relaxed flex-1">
+                    <p className="text-gray-600 text-[15px] leading-relaxed flex-1">
                       {card.desc}
                     </p>
                     <div className="pt-3 border-t border-gray-100">
-                      <p className="text-[13px] font-semibold text-primary-500">
+                      <p className="text-[14px] font-bold text-primary-500">
                         {card.outcome}
                       </p>
                     </div>
@@ -221,7 +221,7 @@ export default function HomePage() {
                   We help businesses understand what AI can do for them, build
                   it, and make it stick.
                 </h2>
-                <div className="space-y-4 text-gray-600 text-[15px] leading-relaxed">
+                <div className="space-y-4 text-gray-600 text-[16px] leading-relaxed">
                   <p>
                     Clarica audits your operations, builds bespoke AI systems
                     that fit how your teams actually work, and trains your people
@@ -264,7 +264,7 @@ export default function HomePage() {
                       <div className="w-5 h-5 rounded-full bg-primary-50 flex items-center justify-center mt-0.5 shrink-0">
                         <Check className="w-3 h-3 text-primary-500" />
                       </div>
-                      <span className="text-[14px] text-gray-600 leading-relaxed">
+                      <span className="text-[15px] text-gray-600 leading-relaxed">
                         {item}
                       </span>
                     </li>
@@ -300,7 +300,7 @@ export default function HomePage() {
                   Let&apos;s find out what AI can do for your business.
                 </h2>
                 <div className="space-y-5">
-                  <p className="text-white/50 text-[15px] leading-relaxed">
+                  <p className="text-white/60 text-[16px] leading-relaxed">
                     Book a free AI audit. We&apos;ll look at how your
                     organisation runs, identify where AI saves the most time,
                     and give you a clear, honest picture of what&apos;s worth
