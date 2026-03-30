@@ -55,9 +55,9 @@ export default function HomePage() {
       {/* ===================== HERO ===================== */}
       <section
         id="home"
-        className="relative min-h-[100dvh] w-full overflow-hidden flex flex-col justify-end"
+        className="relative min-h-[100dvh] w-full overflow-hidden flex flex-col justify-between"
       >
-        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 mb-10 md:mb-14">
+        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 pt-36 md:pt-44 flex-1 flex items-center">
           <div className="max-w-[720px] space-y-6">
             <div
               className="animate-fade-rise"
