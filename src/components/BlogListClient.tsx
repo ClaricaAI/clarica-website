@@ -17,7 +17,7 @@ export default function BlogListClient({ posts }: { posts: BlogPost[] }) {
         >
           <Link
             href={`/blog/${post.slug}`}
-            className="group block border border-gray-200 rounded-2xl p-8 md:p-10 hover:border-primary-200 transition-all duration-300 bg-white/60 backdrop-blur-sm h-full"
+            className="group block bg-white border border-gray-200 rounded-2xl p-7 md:p-8 hover:border-primary-200 transition-all duration-300 h-full"
           >
             <div className="flex flex-wrap gap-2 mb-5">
               {post.tags.map((tag) => (
@@ -34,7 +34,7 @@ export default function BlogListClient({ posts }: { posts: BlogPost[] }) {
               {post.title}
             </h2>
 
-            <p className="text-gray-500 text-[14px] leading-relaxed mb-6">
+            <p className="text-gray-600 text-[14px] leading-relaxed mb-6">
               {post.description}
             </p>
 

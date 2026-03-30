@@ -90,9 +90,6 @@ export default function ServicesJourney() {
         {/* Section Header */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-14">
           <div className="md:col-span-7">
-            <span className="text-[13px] font-semibold text-primary-400 uppercase tracking-wider block mb-4">
-              How we work together
-            </span>
             <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight tracking-tight">
               From audit to adoption
             </h2>
@@ -171,7 +168,7 @@ export default function ServicesJourney() {
           >
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-stretch">
               {/* Left: Content */}
-              <div className="md:col-span-7 border border-gray-200 rounded-2xl p-8 md:p-12">
+              <div className="md:col-span-7 bg-white border border-gray-200 rounded-2xl p-8 md:p-12">
                 <div className="flex items-center gap-3 mb-8">
                   <div className="w-11 h-11 rounded-xl bg-primary-50 flex items-center justify-center">
                     <PhaseIcon className="w-5 h-5 text-primary-500" />
@@ -258,7 +255,7 @@ export default function ServicesJourney() {
         </AnimatePresence>
 
         {/* Trust Signal */}
-        <div className="mt-12 border border-gray-200 bg-white/60 backdrop-blur-sm rounded-2xl p-8 md:p-10">
+        <div className="mt-12 bg-white border border-gray-200 rounded-2xl p-8 md:p-10">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
             <h3 className="md:col-span-7 text-xl md:text-2xl font-bold text-gray-900 leading-snug tracking-tight">
               Other consultants give you a report and leave.{" "}

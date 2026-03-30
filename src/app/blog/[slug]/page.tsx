@@ -88,7 +88,7 @@ export default async function BlogPostPage({
             <h3 className="text-lg font-bold text-gray-900 mb-2">
               Want to explore what AI could do for your business?
             </h3>
-            <p className="text-[14px] text-gray-500 leading-relaxed mb-5">
+            <p className="text-[14px] text-gray-600 leading-relaxed mb-5">
               We offer a free AI audit — no commitment, no sales pitch. Just an
               honest look at where AI saves you the most time.
             </p>

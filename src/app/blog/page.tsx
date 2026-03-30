@@ -28,7 +28,7 @@ export default function BlogPage() {
             AI insights for businesses that want to{" "}
             <span className="text-primary-400">move faster</span>
           </h1>
-          <p className="text-gray-500 text-[15px] leading-relaxed mt-6 max-w-[60ch]">
+          <p className="text-gray-600 text-[15px] leading-relaxed mt-6 max-w-[60ch]">
             Practical thinking on how small and medium-sized businesses are using
             AI to save time, cut costs, and stay ahead.
           </p>

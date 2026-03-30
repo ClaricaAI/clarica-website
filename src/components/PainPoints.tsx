@@ -72,7 +72,7 @@ export default function PainPoints() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="pain-card rounded-2xl p-8 flex flex-col gap-5"
+                className="bg-white border border-gray-200 rounded-2xl p-7 flex flex-col gap-4"
               >
                 <div className="w-10 h-10 rounded-xl bg-primary-50 flex items-center justify-center">
                   <Icon className="w-5 h-5 text-primary-500" />
@@ -88,22 +88,6 @@ export default function PainPoints() {
           })}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="mt-12 flex flex-col md:flex-row items-start md:items-center gap-4 text-[14px] text-gray-500"
-        >
-          <span className="inline-block px-3 py-1 bg-gray-100 rounded-full text-[12px] font-semibold text-gray-700 shrink-0">
-            McKinsey 2025
-          </span>
-          <p>
-            Over 90% of businesses are considering AI to improve their
-            competitive position &mdash; but most don&apos;t know where to
-            start.
-          </p>
-        </motion.div>
       </div>
     </section>
   );

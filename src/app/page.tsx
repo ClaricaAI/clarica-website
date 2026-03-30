@@ -55,9 +55,9 @@ export default function HomePage() {
       {/* ===================== HERO ===================== */}
       <section
         id="home"
-        className="relative min-h-[100dvh] w-full overflow-hidden flex items-center"
+        className="relative min-h-[100dvh] w-full overflow-hidden flex flex-col justify-center"
       >
-        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 pt-32 pb-20">
+        <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12 pt-28 pb-8 md:pb-12">
           <div className="max-w-[720px] space-y-6">
             <div
               className="animate-fade-rise"
@@ -97,21 +97,23 @@ export default function HomePage() {
               </a>
               <a
                 href="#services"
-                className="px-8 py-4 text-[15px] font-semibold text-gray-700 border border-gray-300 rounded-lg hover:bg-white/60 transition-all"
+                className="px-8 py-4 text-[15px] font-semibold text-gray-700 border border-gray-300 rounded-lg hover:bg-white/80 transition-all"
               >
                 See How We Work
               </a>
             </div>
           </div>
         </div>
-      </section>
 
-      {/* ===================== SOCIAL PROOF ===================== */}
-      <SocialProofBar />
+        {/* Trust signals — inside hero viewport */}
+        <div className="relative z-10 mt-auto pb-10 md:pb-14">
+          <SocialProofBar />
+        </div>
+      </section>
 
       {/* Section Divider */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
-        <div className="border-t border-gray-200/40" />
+        <div className="border-t border-gray-200/60" />
       </div>
 
       {/* ===================== PAIN POINTS ===================== */}
@@ -119,7 +121,7 @@ export default function HomePage() {
 
       {/* Section Divider */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
-        <div className="border-t border-gray-200/40" />
+        <div className="border-t border-gray-200/60" />
       </div>
 
       {/* ===================== SERVICES ===================== */}
@@ -127,7 +129,7 @@ export default function HomePage() {
 
       {/* Section Divider */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
-        <div className="border-t border-gray-200/40" />
+        <div className="border-t border-gray-200/60" />
       </div>
 
       {/* ===================== PORTFOLIO ===================== */}
@@ -161,7 +163,7 @@ export default function HomePage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.1 }}
-                    className="border border-gray-200 rounded-2xl p-7 md:p-8 flex flex-col gap-4"
+                    className="bg-white border border-gray-200 rounded-2xl p-7 md:p-8 flex flex-col gap-4"
                   >
                     <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center">
                       <CardIcon className="w-5 h-5 text-primary-500" />
@@ -192,7 +194,7 @@ export default function HomePage() {
 
       {/* Section Divider */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
-        <div className="border-t border-gray-200/40" />
+        <div className="border-t border-gray-200/60" />
       </div>
 
       {/* ===================== ABOUT ===================== */}
@@ -215,7 +217,7 @@ export default function HomePage() {
 
             <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
               {/* About Card */}
-              <div className="md:col-span-7 border border-gray-200 rounded-2xl p-8 md:p-10 space-y-5">
+              <div className="md:col-span-7 bg-white border border-gray-200 rounded-2xl p-8 md:p-10 space-y-5">
                 <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 leading-[1.15] tracking-tight">
                   We help businesses understand what AI can do for them, build
                   it, and make it stick.
@@ -235,7 +237,7 @@ export default function HomePage() {
               </div>
 
               {/* Founder Card */}
-              <div className="md:col-span-5 border border-gray-200 rounded-2xl p-8 md:p-10 space-y-5">
+              <div className="md:col-span-5 bg-white border border-gray-200 rounded-2xl p-8 md:p-10 space-y-5">
                 <div className="flex items-center justify-between">
                   <div>
                     <span className="text-[13px] font-semibold text-gray-400 uppercase tracking-wider block mb-1">
@@ -332,7 +334,7 @@ export default function HomePage() {
 
               {/* Right: Cal.com Embed */}
               <div className="lg:col-span-7">
-                <div className="glass-card-dark rounded-2xl overflow-hidden">
+                <div className="bg-gray-900 border border-white/10 rounded-2xl overflow-hidden">
                   <CalBooking />
                 </div>
               </div>
