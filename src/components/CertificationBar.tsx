@@ -1,61 +1,60 @@
 "use client";
 
 import { motion } from "motion/react";
-import { Shield } from "lucide-react";
 
 const certifications = [
   {
     name: "Anthropic Certified",
-    subtitle: "Claude Certified Architect",
     logo: "/certs/anthropic.svg",
   },
   {
     name: "Microsoft Certified",
-    subtitle: "AI, Azure & Copilot",
     logo: "/certs/microsoft.svg",
   },
   {
     name: "Google Certified",
-    subtitle: "Project Management",
     logo: "/certs/google.svg",
   },
   {
-    name: "Cloudflare",
-    subtitle: "Protected",
+    name: "Cloudflare Protected",
     logo: "/certs/cloudflare.svg",
   },
 ];
 
 export default function CertificationBar() {
+  // Double the items for seamless infinite scroll
+  const items = [...certifications, ...certifications, ...certifications, ...certifications];
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.8 }}
-      className="relative z-10 pb-6 md:pb-8"
+      className="relative z-10 pb-4 md:pb-6 overflow-hidden"
     >
-      <div className="max-w-[1400px] mx-auto px-8 md:px-12">
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12">
-          {certifications.map((cert) => (
-            <div
-              key={cert.name}
-              className="flex items-center gap-3 opacity-60 hover:opacity-100 transition-opacity"
-            >
-              <img
-                src={cert.logo}
-                alt={cert.name}
-                className="h-6 md:h-7 w-auto"
-              />
-              <div className="hidden sm:block">
-                <span className="text-[11px] font-semibold text-gray-500 uppercase tracking-wider block leading-tight">
+      <div className="max-w-[1400px] mx-auto">
+        {/* Fade edges */}
+        <div className="relative">
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none" />
+
+          <div className="flex animate-scroll-x">
+            {items.map((cert, i) => (
+              <div
+                key={`${cert.name}-${i}`}
+                className="flex items-center gap-3 shrink-0 px-8 md:px-10"
+              >
+                <img
+                  src={cert.logo}
+                  alt={cert.name}
+                  className="h-6 md:h-7 w-auto opacity-70"
+                />
+                <span className="text-[12px] font-semibold text-gray-400 uppercase tracking-wider whitespace-nowrap">
                   {cert.name}
                 </span>
-                <span className="text-[10px] text-gray-400 leading-tight">
-                  {cert.subtitle}
-                </span>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </motion.div>
