@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react";
 import SocialProofBar from "@/components/SocialProofBar";
+import CertificationBar from "@/components/CertificationBar";
 import PainPoints from "@/components/PainPoints";
 import ServicesJourney from "@/components/ServicesJourney";
 import {
@@ -107,6 +108,7 @@ export default function HomePage() {
 
         <div className="relative z-10 pb-10 md:pb-14">
           <SocialProofBar />
+          <CertificationBar />
         </div>
       </section>
 
