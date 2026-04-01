@@ -6,7 +6,22 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Clarica | AI Agency for Business",
   description:
-    "We audit your operations, build bespoke AI systems, and train your team to use them. AI built for how your business actually works.",
+    "We audit your operations, build bespoke AI systems, and train your team to use them.",
+  openGraph: {
+    title: "Clarica — AI Agency",
+    description:
+      "We build custom software and AI systems that help businesses work faster.",
+    url: "https://clarica.co.uk",
+    siteName: "Clarica",
+    images: [
+      {
+        url: "https://clarica.co.uk/og-image.png",
+        width: 1200,
+        height: 627,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export const viewport: Viewport = {
