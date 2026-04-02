@@ -4,6 +4,7 @@ import { motion } from "motion/react";
 import SocialProofBar from "@/components/SocialProofBar";
 import CertificationBar from "@/components/CertificationBar";
 import PainPoints from "@/components/PainPoints";
+import Services from "@/components/Services";
 import ServicesJourney from "@/components/ServicesJourney";
 import {
   Check,
@@ -126,6 +127,14 @@ export default function HomePage() {
       </div>
 
       {/* ===================== SERVICES ===================== */}
+      <Services />
+
+      {/* Section Divider */}
+      <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
+        <div className="border-t border-gray-200/60" />
+      </div>
+
+      {/* ===================== HOW WE WORK ===================== */}
       <ServicesJourney />
 
       {/* Section Divider */}

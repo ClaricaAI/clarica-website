@@ -61,7 +61,7 @@ export default function ServicesJourney() {
 
   return (
     <section
-      id="services"
+      id="how-we-work"
       className="relative z-10 py-16 md:py-24 px-8 md:px-12"
     >
       <div className="max-w-[1400px] mx-auto">
