@@ -13,35 +13,63 @@ import {
   Building2,
   Bot,
   BarChart3,
+  ShieldCheck,
+  BookOpen,
+  Activity,
 } from "lucide-react";
 import CalBooking from "@/components/CalBooking";
 
 const portfolioCards = [
   {
     icon: Building2,
-    title: "Quality & governance across 12 sites",
+    client: "National care group \u00b7 12 sites",
+    title: "Quality & governance platform",
     desc: "Replaced a fragmented manual system with a single platform. 500 users, 350 active weekly. Quality monitoring, incident tracking, and regulatory reporting \u2014 all in one place.",
-    outcome: "Saved the organisation an estimated \u00a3100,000 in outsourced software costs",
+    outcome: "\u00a3100k+ saved in outsourced software costs",
   },
   {
     icon: Bot,
+    client: "Multi-site healthcare provider",
     title: "AI assistant inside Microsoft Teams",
     desc: "Staff ask questions about policies, procedures, and guidance \u2014 and get instant, accurate answers. No searching through folders, no waiting for a manager.",
-    outcome: "Instant access to organisational knowledge for every team member, every shift",
+    outcome: "Instant access to organisational knowledge, every shift",
   },
   {
     icon: BarChart3,
-    title: "Automated reporting and compliance tracking",
+    client: "UK care organisation \u00b7 500+ staff",
+    title: "Automated reporting & compliance tracking",
     desc: "AI drafts reports, flags overdue assessments, and monitors compliance across all locations. Managers review and approve \u2014 the admin is done for them.",
     outcome: "60 hours saved per week across 12 sites",
+  },
+  {
+    icon: ShieldCheck,
+    client: "Healthcare organisation \u00b7 CQC regulated",
+    title: "AI compliance agent",
+    desc: "An AI agent that reviews operations against CQC regulatory frameworks, flags risks before inspectors find them, and supports compliance workflows across the organisation.",
+    outcome: "Manual compliance checking replaced with AI monitoring",
+  },
+  {
+    icon: BookOpen,
+    client: "National healthcare provider",
+    title: "Learning management system, built from scratch",
+    desc: "Designed and built a complete LMS from the ground up. Course delivery, progress tracking, and reporting \u2014 tailored to how the organisation actually trains its people.",
+    outcome: "Organisation-wide training through a single custom platform",
+  },
+  {
+    icon: Activity,
+    client: "Social care \u00b7 6-person dev team",
+    title: "Predicting falls with machine learning",
+    desc: "Led a team of 6 developers building predictive models for falls and other adverse events in residential care. Full project ownership from scoping through to delivery.",
+    outcome: "End-to-end technical leadership of a cross-functional ML team",
   },
 ];
 
 const founderHighlights = [
   "Built and deployed AI systems used by 500+ professionals daily",
   "Saved a business an estimated \u00a3100,000 in outsourced software costs",
-  "Built an AI assistant inside Microsoft Teams for frontline staff",
-  "Led a team of 6 developers on an NHS-partnered project predicting falls",
+  "Trained multiple departments to become fully AI-native",
+  "Led a team of 6 developers on a machine learning project in social care",
+  "Advised 2 startups on AI strategy, product direction, and customer needs",
   "27 professional certifications across Anthropic and Microsoft",
   "6,500+ LinkedIn followers in AI and business",
 ];
@@ -182,19 +210,30 @@ export default function HomePage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.4, delay: i * 0.1 }}
-                    className="bg-white border border-gray-200 rounded-2xl p-7 md:p-8 flex flex-col gap-4"
+                    className="group relative bg-white border border-gray-200 rounded-2xl p-7 md:p-8 flex flex-col gap-4 transition-all duration-300 hover:shadow-lg hover:shadow-primary-400/8 hover:-translate-y-1 overflow-hidden"
                   >
-                    <div className="w-10 h-10 bg-primary-50 rounded-xl flex items-center justify-center">
-                      <CardIcon className="w-5 h-5 text-primary-500" />
+                    <div className="absolute top-0 left-0 right-0 h-[3px] bg-gradient-to-r from-primary-400 to-primary-200 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+                    <div className="flex items-center justify-between">
+                      <div className="w-11 h-11 bg-primary-50 rounded-xl flex items-center justify-center">
+                        <CardIcon className="w-5 h-5 text-primary-500" />
+                      </div>
+                      <span className="text-[11px] font-semibold text-gray-400 uppercase tracking-wider text-right max-w-[160px]">
+                        {card.client}
+                      </span>
                     </div>
+
                     <h3 className="text-xl font-extrabold text-gray-900 leading-snug">
                       {card.title}
                     </h3>
                     <p className="text-gray-600 text-[15px] leading-relaxed flex-1">
                       {card.desc}
                     </p>
-                    <div className="pt-3 border-t border-gray-100">
-                      <p className="text-[14px] font-bold text-primary-500">
+                    <div className="pt-3 border-t border-gray-100 flex items-start gap-2">
+                      <div className="w-5 h-5 rounded-full bg-primary-50 flex items-center justify-center mt-0.5 shrink-0">
+                        <Check className="w-3 h-3 text-primary-500" />
+                      </div>
+                      <p className="text-[14px] font-bold text-gray-900">
                         {card.outcome}
                       </p>
                     </div>
