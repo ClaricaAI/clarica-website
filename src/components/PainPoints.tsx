@@ -6,8 +6,6 @@ import {
   ShieldAlert,
   Lightbulb,
   Wrench,
-  TrendingUp,
-  BarChart3,
 } from "lucide-react";
 
 const pains = [
@@ -24,22 +22,12 @@ const pains = [
   {
     icon: Lightbulb,
     pain: "\"We know we should be using AI but don't know where to start.\"",
-    fix: "A free audit shows you exactly where AI fits.",
+    fix: "A free audit shows you exactly where AI fits. No commitment, no jargon.",
   },
   {
     icon: Wrench,
     pain: "\"We're paying for a system that only does half the job.\"",
-    fix: "Bespoke systems built around your workflows.",
-  },
-  {
-    icon: TrendingUp,
-    pain: "\"Everyone's talking about AI and we haven't started.\"",
-    fix: "Start with an audit. No commitment, no jargon.",
-  },
-  {
-    icon: BarChart3,
-    pain: "\"I spend hours pulling numbers from five different systems.\"",
-    fix: "One dashboard. Real-time. Across all locations.",
+    fix: "Bespoke systems built around your workflows — not the other way around.",
   },
 ];
 
@@ -62,7 +50,7 @@ export default function PainPoints() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {pains.map((item, i) => {
             const Icon = item.icon;
             return (

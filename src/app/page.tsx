@@ -4,18 +4,16 @@ import { motion } from "motion/react";
 import SocialProofBar from "@/components/SocialProofBar";
 import CertificationBar from "@/components/CertificationBar";
 import PainPoints from "@/components/PainPoints";
-import Services from "@/components/Services";
 import ServicesJourney from "@/components/ServicesJourney";
 import {
   Check,
-  ArrowUpRight,
   Linkedin,
   Building2,
   Bot,
-  BarChart3,
   ShieldCheck,
   BookOpen,
   Activity,
+  Users,
 } from "lucide-react";
 import CalBooking from "@/components/CalBooking";
 
@@ -35,18 +33,18 @@ const portfolioCards = [
     outcome: "Instant access to organisational knowledge, every shift",
   },
   {
-    icon: BarChart3,
-    client: "UK care organisation \u00b7 500+ staff",
-    title: "Automated reporting & compliance tracking",
-    desc: "AI drafts reports, flags overdue assessments, and monitors compliance across all locations. Managers review and approve \u2014 the admin is done for them.",
-    outcome: "60 hours saved per week across 12 sites",
+    icon: ShieldCheck,
+    client: "CQC-regulated care organisation",
+    title: "AI compliance & reporting agent",
+    desc: "AI monitors compliance against CQC frameworks, drafts reports, and flags overdue assessments across all locations. Managers review and approve \u2014 the manual work is eliminated.",
+    outcome: "60 hours of admin replaced per week across 12 sites",
   },
   {
-    icon: ShieldCheck,
-    client: "Healthcare organisation \u00b7 CQC regulated",
-    title: "AI compliance agent",
-    desc: "An AI agent that reviews operations against CQC regulatory frameworks, flags risks before inspectors find them, and supports compliance workflows across the organisation.",
-    outcome: "Manual compliance checking replaced with AI monitoring",
+    icon: Users,
+    client: "Multiple departments \u00b7 full rollout",
+    title: "Department-wide AI transformation",
+    desc: "Trained entire departments on how to use AI safely and correctly, then fully implemented AI tooling into their daily workflows. Not awareness sessions \u2014 full adoption.",
+    outcome: "Departments operating AI-native, not just AI-aware",
   },
   {
     icon: BookOpen,
@@ -65,12 +63,10 @@ const portfolioCards = [
 ];
 
 const founderHighlights = [
-  "Built and deployed AI systems used by 500+ professionals daily",
-  "Saved a business an estimated \u00a3100,000 in outsourced software costs",
-  "Trained multiple departments to become fully AI-native",
-  "Led a team of 6 developers on a machine learning project in social care",
-  "Advised 2 startups on AI strategy, product direction, and customer needs",
+  "Claude Certified Architect \u2014 Anthropic\u2019s highest-level AI certification",
   "27 professional certifications across Anthropic and Microsoft",
+  "Advised 2 startups on AI strategy, product direction, and customer needs",
+  "Started building production AI systems at 19",
   "6,500+ LinkedIn followers in AI and business",
 ];
 
@@ -157,14 +153,6 @@ export default function HomePage() {
 
       {/* ===================== PAIN POINTS ===================== */}
       <PainPoints />
-
-      {/* Section Divider */}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
-        <div className="border-t border-gray-200/60" />
-      </div>
-
-      {/* ===================== SERVICES ===================== */}
-      <Services />
 
       {/* Section Divider */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-8 md:px-12">
